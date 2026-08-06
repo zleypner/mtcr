@@ -38,7 +38,7 @@ export function Header() {
             Get Free Quote
           </Link>
           <Button variant="ghost" size="icon" className="md:hidden">
-            <Menu className="h-5 w-5" />
+            <Menu className="h-5 w-5 text-blue-10" />
             <span className="sr-only">Toggle menu</span>
           </Button>
         </div>

@@ -17,7 +17,6 @@ const treatments = [
     icon: Smile,
     href: "/treatments/dental",
     savings: "50-70%",
-    color: "bg-cyan-50 text-cyan-600",
   },
   {
     name: "Cosmetic Surgery",
@@ -25,7 +24,6 @@ const treatments = [
     icon: Sparkles,
     href: "/treatments/cosmetic",
     savings: "40-60%",
-    color: "bg-pink-50 text-pink-600",
   },
   {
     name: "Orthopedic",
@@ -33,7 +31,6 @@ const treatments = [
     icon: Bone,
     href: "/treatments/orthopedic",
     savings: "50-65%",
-    color: "bg-orange-50 text-orange-600",
   },
   {
     name: "Cardiac",
@@ -41,7 +38,6 @@ const treatments = [
     icon: Heart,
     href: "/treatments/cardiac",
     savings: "45-60%",
-    color: "bg-red-50 text-red-600",
   },
   {
     name: "Bariatric",
@@ -49,7 +45,6 @@ const treatments = [
     icon: Scale,
     href: "/treatments/bariatric",
     savings: "50-70%",
-    color: "bg-green-50 text-green-600",
   },
   {
     name: "Fertility",
@@ -57,7 +52,6 @@ const treatments = [
     icon: Baby,
     href: "/treatments/fertility",
     savings: "40-60%",
-    color: "bg-purple-50 text-purple-600",
   },
   {
     name: "Ophthalmology",
@@ -65,7 +59,6 @@ const treatments = [
     icon: Eye,
     href: "/treatments/ophthalmology",
     savings: "50-65%",
-    color: "bg-blue-50 text-blue-600",
   },
 ];
 
@@ -90,10 +83,8 @@ export function TreatmentCategories() {
               href={treatment.href}
               className="group relative rounded-2xl border bg-white p-6 shadow-sm transition-all hover:shadow-md"
             >
-              <div
-                className={`inline-flex h-12 w-12 items-center justify-center rounded-xl ${treatment.color}`}
-              >
-                <treatment.icon className="h-6 w-6" />
+              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-60">
+                <treatment.icon className="h-6 w-6 text-blue-10" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-gray-900">
                 {treatment.name}
@@ -102,10 +93,10 @@ export function TreatmentCategories() {
                 {treatment.description}
               </p>
               <div className="mt-4 flex items-center justify-between">
-                <span className="inline-flex items-center rounded-full bg-green-50 px-2.5 py-0.5 text-xs font-medium text-green-700">
+                <span className="inline-flex items-center rounded-full bg-blue-60 px-2.5 py-0.5 text-xs font-medium text-blue-10">
                   Save {treatment.savings}
                 </span>
-                <ArrowRight className="h-4 w-4 text-gray-400 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="h-4 w-4 text-blue-30 transition-transform group-hover:translate-x-1" />
               </div>
             </Link>
           ))}
@@ -117,7 +108,7 @@ export function TreatmentCategories() {
             className="inline-flex items-center text-sm font-semibold text-primary hover:underline"
           >
             View all treatments
-            <ArrowRight className="ml-1 h-4 w-4" />
+            <ArrowRight className="ml-1 h-4 w-4 text-blue-10" />
           </Link>
         </div>
       </div>

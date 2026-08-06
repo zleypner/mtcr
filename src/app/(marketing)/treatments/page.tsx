@@ -59,9 +59,6 @@ const treatmentCategories = [
     ],
     icon: Smile,
     savings: "50-70%",
-    color: "bg-cyan-500",
-    lightColor: "bg-cyan-50",
-    textColor: "text-cyan-600",
   },
   {
     name: "Cosmetic Surgery",
@@ -77,9 +74,6 @@ const treatmentCategories = [
     ],
     icon: Sparkles,
     savings: "40-60%",
-    color: "bg-pink-500",
-    lightColor: "bg-pink-50",
-    textColor: "text-pink-600",
   },
   {
     name: "Orthopedic",
@@ -95,9 +89,6 @@ const treatmentCategories = [
     ],
     icon: Bone,
     savings: "50-65%",
-    color: "bg-orange-500",
-    lightColor: "bg-orange-50",
-    textColor: "text-orange-600",
   },
   {
     name: "Cardiac",
@@ -113,9 +104,6 @@ const treatmentCategories = [
     ],
     icon: Heart,
     savings: "45-60%",
-    color: "bg-red-500",
-    lightColor: "bg-red-50",
-    textColor: "text-red-600",
   },
   {
     name: "Bariatric",
@@ -131,9 +119,6 @@ const treatmentCategories = [
     ],
     icon: Scale,
     savings: "50-70%",
-    color: "bg-green-500",
-    lightColor: "bg-green-50",
-    textColor: "text-green-600",
   },
   {
     name: "Fertility",
@@ -143,9 +128,6 @@ const treatmentCategories = [
     procedures: ["IVF", "Egg Freezing", "IUI", "ICSI", "Egg Donation"],
     icon: Baby,
     savings: "40-60%",
-    color: "bg-purple-500",
-    lightColor: "bg-purple-50",
-    textColor: "text-purple-600",
   },
   {
     name: "Ophthalmology",
@@ -161,9 +143,6 @@ const treatmentCategories = [
     ],
     icon: Eye,
     savings: "50-65%",
-    color: "bg-blue-500",
-    lightColor: "bg-blue-50",
-    textColor: "text-blue-600",
   },
   {
     name: "General Surgery",
@@ -179,9 +158,6 @@ const treatmentCategories = [
     ],
     icon: Stethoscope,
     savings: "45-60%",
-    color: "bg-slate-500",
-    lightColor: "bg-slate-50",
-    textColor: "text-slate-600",
   },
   {
     name: "Diagnostics",
@@ -191,9 +167,6 @@ const treatmentCategories = [
     procedures: ["MRI", "CT Scan", "Ultrasound", "Lab Work", "Health Checkup"],
     icon: Microscope,
     savings: "60-80%",
-    color: "bg-indigo-500",
-    lightColor: "bg-indigo-50",
-    textColor: "text-indigo-600",
   },
   {
     name: "Wellness",
@@ -209,9 +182,6 @@ const treatmentCategories = [
     ],
     icon: Leaf,
     savings: "40-60%",
-    color: "bg-emerald-500",
-    lightColor: "bg-emerald-50",
-    textColor: "text-emerald-600",
   },
 ];
 
@@ -251,13 +221,13 @@ export default function TreatmentsPage() {
               verified facilities across Mexico, Costa Rica, Colombia, Brazil, and more.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <div className="flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-700">
+              <div className="flex items-center gap-2 rounded-full bg-blue-60 px-4 py-2 text-sm font-medium text-blue-10">
                 <span>Save 50-70%</span>
               </div>
-              <div className="flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
+              <div className="flex items-center gap-2 rounded-full bg-blue-60 px-4 py-2 text-sm font-medium text-blue-10">
                 <span>Verified Providers</span>
               </div>
-              <div className="flex items-center gap-2 rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-700">
+              <div className="flex items-center gap-2 rounded-full bg-blue-60 px-4 py-2 text-sm font-medium text-blue-10">
                 <span>6+ Countries</span>
               </div>
             </div>
@@ -275,17 +245,10 @@ export default function TreatmentsPage() {
                 className="group relative flex flex-col rounded-2xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg"
               >
                 <div className="flex items-start justify-between">
-                  <div
-                    className={cn(
-                      "flex h-12 w-12 items-center justify-center rounded-xl",
-                      category.lightColor
-                    )}
-                  >
-                    <category.icon
-                      className={cn("h-6 w-6", category.textColor)}
-                    />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-60">
+                    <category.icon className="h-6 w-6 text-blue-10" />
                   </div>
-                  <span className="inline-flex items-center rounded-full bg-green-50 px-2.5 py-0.5 text-xs font-medium text-green-700">
+                  <span className="inline-flex items-center rounded-full bg-blue-60 px-2.5 py-0.5 text-xs font-medium text-blue-10">
                     Save {category.savings}
                   </span>
                 </div>
@@ -324,7 +287,7 @@ export default function TreatmentsPage() {
                   className="mt-6 inline-flex items-center text-sm font-semibold text-primary hover:underline"
                 >
                   View {category.name} Treatments
-                  <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  <ArrowRight className="ml-1 h-4 w-4 text-blue-10 transition-transform group-hover:translate-x-1" />
                 </Link>
               </article>
             ))}
@@ -347,8 +310,8 @@ export default function TreatmentsPage() {
 
           <div className="mx-auto mt-12 grid max-w-5xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
-                <span className="text-2xl font-bold text-green-600">50%+</span>
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
+                <span className="text-2xl font-bold text-blue-10">50%+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">Cost Savings</h3>
               <p className="mt-1 text-sm text-gray-500">
@@ -357,8 +320,8 @@ export default function TreatmentsPage() {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-                <span className="text-2xl font-bold text-blue-600">50+</span>
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
+                <span className="text-2xl font-bold text-blue-10">50+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
                 JCI Hospitals
@@ -369,8 +332,8 @@ export default function TreatmentsPage() {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-purple-100">
-                <span className="text-2xl font-bold text-purple-600">6+</span>
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
+                <span className="text-2xl font-bold text-blue-10">6+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">Countries</h3>
               <p className="mt-1 text-sm text-gray-500">
@@ -379,8 +342,8 @@ export default function TreatmentsPage() {
             </div>
 
             <div className="text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-orange-100">
-                <span className="text-2xl font-bold text-orange-600">2M+</span>
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
+                <span className="text-2xl font-bold text-blue-10">2M+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
                 Patients Yearly
