@@ -2,11 +2,18 @@
 
 ## Project Overview
 
-**CostaRicaHealthGuide.com** - The definitive portal for medical tourism in Costa Rica.
+**Smart Medical Tourism** - Your trusted guide for secure medical travel across Latin America.
 
-**Mission:** Become the #1 authority on medical tourism searches for Costa Rica.
+**Mission:** Become the leading authority on safe, affordable, and high-quality medical tourism in LATAM.
 
-**Primary Audience:** US/Canada patients seeking medical care abroad.
+**Core Values:**
+- **Secure:** Verified providers, transparent processes, patient safety first
+- **Health-focused:** Quality outcomes over cost savings
+- **Trustworthy:** Honest information, no hidden agendas
+
+**Primary Audience:** US/Canada/Europe patients seeking quality medical care in Latin America.
+
+**Coverage:** Mexico, Costa Rica, Colombia, Brazil, Argentina, and other LATAM destinations.
 
 **Language:** English first, Spanish later.
 
