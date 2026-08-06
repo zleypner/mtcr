@@ -6,32 +6,32 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    question: "Is medical tourism in Costa Rica safe?",
+    question: "Is medical tourism in Latin America safe?",
     answer:
-      "Yes, Costa Rica is one of the safest destinations for medical tourism. The country has multiple JCI-accredited hospitals (the gold standard for international healthcare), US and EU-trained physicians, and a stable democracy with excellent infrastructure. Costa Rica consistently ranks as the safest country in Central America.",
+      "Yes, Latin America offers many safe destinations for medical tourism. Countries like Mexico, Costa Rica, Colombia, and Brazil have JCI-accredited hospitals (the gold standard for international healthcare), US and EU-trained physicians, and modern medical facilities. We verify all providers to ensure they meet international safety standards.",
   },
   {
     question: "How much can I save compared to US prices?",
     answer:
-      "Patients typically save 50-70% on medical procedures compared to US prices, even when including travel and accommodation costs. For example, dental implants that cost $4,000-$5,000 in the US typically cost $800-$1,500 in Costa Rica. The savings are due to lower operating costs, not lower quality.",
+      "Patients typically save 50-70% on medical procedures compared to US prices, even when including travel and accommodation costs. For example, dental implants that cost $4,000-$5,000 in the US typically cost $800-$1,500 in Latin America. The savings are due to lower operating costs, not lower quality.",
   },
   {
-    question: "Do doctors in Costa Rica speak English?",
+    question: "Do doctors in Latin America speak English?",
     answer:
-      "Yes, most doctors and medical staff at international hospitals speak fluent English. Many Costa Rican physicians trained in the United States, Canada, or Europe. Clinics catering to medical tourists typically have bilingual staff throughout the facility.",
+      "Yes, most doctors and medical staff at international hospitals speak fluent English. Many Latin American physicians trained in the United States, Canada, or Europe. Clinics catering to medical tourists typically have bilingual staff throughout the facility.",
   },
   {
     question: "What is JCI accreditation?",
     answer:
-      "JCI (Joint Commission International) accreditation is the gold standard for healthcare quality worldwide. It evaluates hospitals on patient safety, quality of care, and medical standards. Costa Rica has over 10 JCI-accredited facilities, more than most Latin American countries.",
+      "JCI (Joint Commission International) accreditation is the gold standard for healthcare quality worldwide. It evaluates hospitals on patient safety, quality of care, and medical standards. Latin America has dozens of JCI-accredited facilities across Mexico, Costa Rica, Colombia, Brazil, and other countries.",
   },
   {
-    question: "How long should I stay for my procedure?",
+    question: "Which country should I choose for my procedure?",
     answer:
-      "The recommended stay depends on your procedure. Dental work may require 5-7 days, while surgeries typically require 7-14 days for initial recovery. Your doctor will provide specific guidance. Many patients combine their medical trip with a vacation before or after their procedure.",
+      "The best country depends on your specific procedure, budget, and preferences. Mexico is popular for dental and bariatric surgery. Costa Rica excels in dental and cosmetic procedures. Colombia is known for plastic surgery. Brazil is renowned for cosmetic surgery. We help you find the right destination for your needs.",
   },
   {
-    question: "Will my US insurance cover treatment in Costa Rica?",
+    question: "Will my US insurance cover treatment abroad?",
     answer:
       "Most US insurance plans do not cover elective procedures abroad. However, some insurers are beginning to offer medical tourism benefits. Even paying out-of-pocket, the total cost (procedure + travel + hotel) is often less than the US copay alone. We recommend checking with your insurance provider.",
   },
@@ -52,7 +52,7 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Get answers to common questions about medical tourism in Costa Rica.
+            Get answers to common questions about medical tourism in Latin America.
           </p>
         </div>
 

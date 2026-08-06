@@ -2,7 +2,7 @@
 
 ## Vision
 
-Become the #1 authority on medical tourism in Costa Rica, serving millions of visitors annually.
+Become the leading authority on medical tourism in Latin America, serving millions of visitors annually across Mexico, Costa Rica, Colombia, Brazil, Argentina, and more.
 
 ## Phases
 
@@ -18,28 +18,30 @@ Become the #1 authority on medical tourism in Costa Rica, serving millions of vi
 - [ ] Core layouts
 - [ ] Home page
 - [ ] 5 treatment pillar pages
+- [ ] Country landing pages (Mexico, Costa Rica, Colombia)
 
 ### Phase 2: Content Core (Q3 2024)
 **Goal:** Launch with essential content
 
 - [ ] 10 treatment category pages
 - [ ] 30 individual treatment pages
-- [ ] 10 hospital profiles
-- [ ] 20 clinic profiles
-- [ ] 50 doctor profiles
+- [ ] 15 hospital profiles (5 per top country)
+- [ ] 30 clinic profiles
+- [ ] 75 doctor profiles
 - [ ] 5 comprehensive guides
 - [ ] 10 blog posts
 - [ ] FAQ system
 - [ ] Search functionality
+- [ ] Country comparison pages
 
 ### Phase 3: Directory (Q4 2024)
-**Goal:** Full provider directory
+**Goal:** Full provider directory across LATAM
 
 - [ ] Advanced search filters
-- [ ] City pages
+- [ ] City pages (Mexico City, San José, Bogotá, São Paulo)
 - [ ] Hotel listings
 - [ ] Map integration
-- [ ] Compare feature
+- [ ] Compare feature (providers, countries)
 - [ ] Contact forms
 - [ ] Lead tracking
 
@@ -50,16 +52,17 @@ Become the #1 authority on medical tourism in Costa Rica, serving millions of vi
 - [ ] Review system
 - [ ] Newsletter
 - [ ] Resource downloads
-- [ ] Cost calculator
+- [ ] Cost calculator (by country)
 - [ ] Trip planner
 
 ### Phase 5: Growth (Q2 2025)
 **Goal:** Scale content and traffic
 
-- [ ] 100+ treatment pages
-- [ ] 200+ provider profiles
-- [ ] 100+ blog posts
+- [ ] 200+ treatment pages
+- [ ] 500+ provider profiles across LATAM
+- [ ] 150+ blog posts
 - [ ] Spanish version (i18n)
+- [ ] Portuguese version (for Brazil)
 - [ ] Analytics dashboard
 
 ### Phase 6: Platform (2025+)
@@ -75,22 +78,23 @@ Become the #1 authority on medical tourism in Costa Rica, serving millions of vi
 
 | Milestone | Target | Metric |
 |-----------|--------|--------|
-| Launch | Q3 2024 | 50 pages indexed |
-| Traction | Q4 2024 | 10K monthly visitors |
-| Authority | Q2 2025 | 50K monthly visitors |
-| Scale | Q4 2025 | 200K monthly visitors |
+| Launch | Q3 2024 | 100 pages indexed |
+| Traction | Q4 2024 | 25K monthly visitors |
+| Authority | Q2 2025 | 100K monthly visitors |
+| Scale | Q4 2025 | 400K monthly visitors |
 | Platform | 2026 | Revenue generation |
 
 ## Content Targets
 
 | Content Type | Phase 2 | Phase 3 | Phase 5 |
 |--------------|---------|---------|---------|
-| Treatments | 30 | 50 | 150 |
-| Hospitals | 10 | 20 | 30 |
-| Clinics | 20 | 50 | 200 |
-| Doctors | 50 | 100 | 500 |
-| Blog Posts | 10 | 30 | 100 |
-| Guides | 5 | 15 | 30 |
+| Treatments | 30 | 75 | 200 |
+| Hospitals | 15 | 40 | 75 |
+| Clinics | 30 | 100 | 400 |
+| Doctors | 75 | 200 | 750 |
+| Blog Posts | 10 | 50 | 150 |
+| Guides | 5 | 20 | 50 |
+| Country Pages | 3 | 6 | 10 |
 
 ## Technical Debt Budget
 

@@ -12,7 +12,7 @@ export function CTA() {
             Ready to Start Your Medical Journey?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-white/90">
-            Connect with top-rated hospitals and clinics in Costa Rica. Get a
+            Connect with verified hospitals and clinics across Latin America. Get a
             free, no-obligation quote for your procedure today.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

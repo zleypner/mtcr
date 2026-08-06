@@ -5,19 +5,19 @@ const stats = [
     description: "Compared to US prices",
   },
   {
-    value: "10+",
+    value: "50+",
     label: "JCI Accredited Hospitals",
-    description: "Meeting international standards",
+    description: "Across Latin America",
   },
   {
-    value: "200,000+",
+    value: "2M+",
     label: "Medical Tourists Yearly",
-    description: "Choose Costa Rica for care",
+    description: "Choose LATAM for care",
   },
   {
-    value: "#1",
-    label: "In Latin America",
-    description: "For medical tourism",
+    value: "6+",
+    label: "Countries",
+    description: "Top medical destinations",
   },
 ];
 

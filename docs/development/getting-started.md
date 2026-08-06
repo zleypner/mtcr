@@ -11,7 +11,7 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yieldge/mtcr.git
+git clone https://github.com/zleypner/mtcr.git
 cd mtcr
 ```
 
@@ -36,7 +36,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 
 # App
 NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXT_PUBLIC_APP_NAME=Costa Rica Health Guide
+NEXT_PUBLIC_APP_NAME=Smart Medical Tourism
 ```
 
 ### 4. Run Development Server
@@ -50,7 +50,7 @@ Visit `http://localhost:3000`
 ## Project Structure Overview
 
 ```
-mtcr/
+smart-medical-tourism/
 ├── content/          # MDX content files
 ├── docs/             # Documentation
 ├── public/           # Static assets

@@ -9,19 +9,18 @@ export function Hero() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-6 inline-flex items-center rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-700">
-            <span>Trusted by 10,000+ patients from USA &amp; Canada</span>
+            <span>Trusted by 10,000+ patients worldwide</span>
           </div>
 
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-            World-Class Healthcare in{" "}
-            <span className="text-primary">Costa Rica</span>
+            Secure Medical Travel in{" "}
+            <span className="text-primary">Latin America</span>
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-xl">
             Save 50-70% on medical procedures without compromising quality.
-            Access JCI-accredited hospitals, board-certified doctors, and
-            personalized care in one of the world&apos;s top medical tourism
-            destinations.
+            Access verified hospitals, board-certified doctors, and
+            personalized care across Mexico, Costa Rica, Colombia, and more.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -59,10 +58,10 @@ export function Hero() {
                 <Award className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                JCI Accredited
+                Verified Providers
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                International standards
+                JCI & internationally accredited
               </p>
             </div>
 
@@ -71,10 +70,10 @@ export function Hero() {
                 <Shield className="h-6 w-6 text-purple-600" />
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                Board Certified
+                Safe & Secure
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                US/EU trained doctors
+                Transparent process, patient safety first
               </p>
             </div>
           </div>

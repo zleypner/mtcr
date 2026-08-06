@@ -3,15 +3,15 @@ import {
   Clock,
   GraduationCap,
   Globe,
-  TreePalm,
+  MapPin,
   ShieldCheck,
 } from "lucide-react";
 
 const reasons = [
   {
-    title: "3-Hour Flight from US",
+    title: "Close to Home",
     description:
-      "Direct flights from major US cities. Same timezone as Central US makes communication easy.",
+      "Direct flights from major US and Canadian cities. Convenient time zones make communication easy.",
     icon: Plane,
   },
   {
@@ -27,36 +27,36 @@ const reasons = [
     icon: GraduationCap,
   },
   {
-    title: "English Widely Spoken",
+    title: "English & Spanish",
     description:
-      "Medical staff fluent in English. Clear communication throughout your care journey.",
+      "Medical staff fluent in English and Spanish. Clear communication throughout your care journey.",
     icon: Globe,
   },
   {
-    title: "Recovery Paradise",
+    title: "Multiple Destinations",
     description:
-      "Recover in a tropical setting. Combine your procedure with a relaxing vacation.",
-    icon: TreePalm,
+      "Choose from Mexico, Costa Rica, Colombia, Brazil, Argentina, and more top medical destinations.",
+    icon: MapPin,
   },
   {
-    title: "Safe & Stable",
+    title: "Verified & Secure",
     description:
-      "Costa Rica is the safest country in Central America with a stable democracy since 1949.",
+      "We verify all providers for credentials, safety standards, and patient satisfaction.",
     icon: ShieldCheck,
   },
 ];
 
-export function WhyCostaRica() {
+export function WhyLATAM() {
   return (
     <section className="bg-slate-50 py-20 sm:py-28">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Why Choose Costa Rica?
+            Why Choose Latin America?
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Costa Rica has become a premier destination for medical tourism,
-            combining affordable world-class healthcare with natural beauty.
+            Latin America has become a premier destination for medical tourism,
+            combining affordable world-class healthcare with diverse cultures and natural beauty.
           </p>
         </div>
 

@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Costa Rica Health Guide",
-    template: "%s | Costa Rica Health Guide",
+    default: "Smart Medical Tourism",
+    template: "%s | Smart Medical Tourism",
   },
   description:
-    "The definitive guide to medical tourism in Costa Rica. Find top hospitals, clinics, doctors, and treatments.",
+    "Your trusted guide for secure medical travel across Latin America. Find verified hospitals, clinics, and doctors.",
 };
 
 export default function RootLayout({

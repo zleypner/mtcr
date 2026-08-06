@@ -1,16 +1,22 @@
-# Costa Rica Health Guide
+# Smart Medical Tourism
 
-**CostaRicaHealthGuide.com** - The definitive portal for medical tourism in Costa Rica.
+**Smart Medical Tourism** - Your trusted guide for secure medical travel across Latin America.
 
 ## Overview
 
-Costa Rica Health Guide (CRHG) is an independent content platform designed to become the #1 authority on medical tourism searches for Costa Rica. The platform helps international patients (primarily from the US and Canada) find reliable information about medical treatments in Costa Rica.
+Smart Medical Tourism (SMT) is an independent content platform designed to become the leading authority on medical tourism in Latin America. The platform helps international patients (primarily from the US, Canada, and Europe) find reliable information about medical treatments across Mexico, Costa Rica, Colombia, Brazil, Argentina, and other LATAM destinations.
+
+## Core Values
+
+- **Secure:** Verified providers, transparent processes, patient safety first
+- **Health-focused:** Quality outcomes over cost savings
+- **Trustworthy:** Honest information, no hidden agendas
 
 ## Vision
 
-- Become the top organic search result for "medical tourism costa rica"
+- Become the top organic search result for "medical tourism latin america"
 - Serve millions of visitors annually
-- Index thousands of pages covering treatments, providers, and guides
+- Index thousands of pages covering treatments, providers, and guides across LATAM
 - Generate high-authority backlinks through genuine editorial value
 
 ## Tech Stack
@@ -36,8 +42,8 @@ Costa Rica Health Guide (CRHG) is an independent content platform designed to be
 
 ```bash
 # Clone repository
-git clone https://github.com/yieldge/crhg.git
-cd crhg
+git clone https://github.com/zleypner/mtcr.git
+cd mtcr
 
 # Install dependencies
 npm install
@@ -55,7 +61,7 @@ Visit `http://localhost:3000`
 ## Project Structure
 
 ```
-crhg/
+smart-medical-tourism/
 ├── content/              # MDX content files
 │   ├── treatments/       # Treatment pages
 │   ├── hospitals/        # Hospital profiles

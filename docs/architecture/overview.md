@@ -1,6 +1,6 @@
 # Architecture Overview
 
-Costa Rica Health Guide (CRHG) is designed as a scalable, SEO-first content platform.
+Smart Medical Tourism (SMT) is designed as a scalable, SEO-first content platform for medical tourism across Latin America.
 
 ## Core Principles
 

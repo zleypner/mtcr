@@ -14,7 +14,7 @@ export function Header() {
             {siteConfig.shortName}
           </span>
           <span className="hidden text-sm text-muted-foreground sm:inline-block">
-            Costa Rica Health Guide
+            Smart Medical Tourism
           </span>
         </Link>
 

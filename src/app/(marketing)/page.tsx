@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import {
   Hero,
   TreatmentCategories,
-  WhyCostaRica,
+  WhyLATAM,
   Stats,
   HowItWorks,
   FAQ,
@@ -12,23 +12,23 @@ import { JsonLd } from "@/components/seo";
 import { siteConfig, organizationSchema } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Medical Tourism Costa Rica | Save 50-70% on Healthcare",
+  title: "Medical Tourism Latin America | Save 50-70% on Healthcare",
   description:
-    "Costa Rica Health Guide: Your trusted resource for medical tourism in Costa Rica. Find JCI-accredited hospitals, board-certified doctors, and save 50-70% on treatments including dental, cosmetic surgery, and orthopedics.",
+    "Smart Medical Tourism: Your trusted guide for secure medical travel across Latin America. Find verified hospitals, board-certified doctors, and save 50-70% on treatments including dental, cosmetic surgery, and orthopedics.",
   keywords: [
-    "medical tourism costa rica",
-    "healthcare costa rica",
-    "dental tourism costa rica",
-    "plastic surgery costa rica",
-    "hospitals costa rica",
-    "doctors costa rica",
-    "affordable healthcare",
+    "medical tourism latin america",
+    "healthcare latam",
+    "dental tourism mexico",
+    "plastic surgery colombia",
+    "medical travel costa rica",
+    "affordable healthcare abroad",
     "jci accredited hospitals",
+    "smart medical tourism",
   ],
   openGraph: {
-    title: "Costa Rica Health Guide | Medical Tourism Costa Rica",
+    title: "Smart Medical Tourism | Medical Travel Latin America",
     description:
-      "Your trusted resource for medical tourism in Costa Rica. Find JCI-accredited hospitals, board-certified doctors, and save 50-70% on treatments.",
+      "Your trusted guide for secure medical travel across Latin America. Find verified hospitals, board-certified doctors, and save 50-70% on treatments.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: `${siteConfig.url}/og-home.jpg`,
         width: 1200,
         height: 630,
-        alt: "Costa Rica Health Guide - Medical Tourism",
+        alt: "Smart Medical Tourism - Medical Travel Latin America",
       },
     ],
     locale: "en_US",
@@ -44,9 +44,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Costa Rica Health Guide | Medical Tourism Costa Rica",
+    title: "Smart Medical Tourism | Medical Travel Latin America",
     description:
-      "Your trusted resource for medical tourism in Costa Rica. Save 50-70% on healthcare.",
+      "Your trusted guide for secure medical travel across Latin America. Save 50-70% on healthcare.",
     images: [`${siteConfig.url}/og-home.jpg`],
   },
   alternates: {
@@ -60,10 +60,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Is medical tourism in Costa Rica safe?",
+      name: "Is medical tourism in Latin America safe?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Costa Rica is one of the safest destinations for medical tourism. The country has multiple JCI-accredited hospitals, US and EU-trained physicians, and a stable democracy with excellent infrastructure.",
+        text: "Yes, Latin America offers many safe destinations for medical tourism. Countries like Mexico, Costa Rica, Colombia, and Brazil have JCI-accredited hospitals, US and EU-trained physicians, and modern medical facilities.",
       },
     },
     {
@@ -76,18 +76,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do doctors in Costa Rica speak English?",
+      name: "Do doctors in Latin America speak English?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, most doctors and medical staff at international hospitals speak fluent English. Many Costa Rican physicians trained in the United States, Canada, or Europe.",
+        text: "Yes, most doctors and medical staff at international hospitals speak fluent English. Many Latin American physicians trained in the United States, Canada, or Europe.",
       },
     },
     {
       "@type": "Question",
-      name: "What is JCI accreditation?",
+      name: "Which country should I choose for my procedure?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "JCI (Joint Commission International) accreditation is the gold standard for healthcare quality worldwide. Costa Rica has over 10 JCI-accredited facilities.",
+        text: "The best country depends on your specific procedure, budget, and preferences. Mexico is popular for dental and bariatric surgery. Costa Rica excels in dental and cosmetic procedures. Colombia is known for plastic surgery. Brazil is renowned for cosmetic surgery.",
       },
     },
   ],
@@ -115,7 +115,7 @@ export default function HomePage() {
 
       <Hero />
       <TreatmentCategories />
-      <WhyCostaRica />
+      <WhyLATAM />
       <Stats />
       <HowItWorks />
       <FAQ />

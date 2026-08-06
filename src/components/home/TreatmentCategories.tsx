@@ -78,7 +78,7 @@ export function TreatmentCategories() {
             Popular Treatments
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Costa Rica offers world-class medical care across all specialties.
+            Latin America offers world-class medical care across all specialties.
             Find the treatment you need at a fraction of US costs.
           </p>
         </div>

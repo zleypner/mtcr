@@ -19,21 +19,21 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Medical Treatments in Costa Rica | All Procedures & Costs",
+  title: "Medical Treatments in Latin America | All Procedures & Costs",
   description:
-    "Explore all medical treatments available in Costa Rica. Dental, cosmetic surgery, orthopedic, cardiac, bariatric, fertility and more. Save 50-70% vs US prices.",
+    "Explore all medical treatments available across Latin America. Dental, cosmetic surgery, orthopedic, cardiac, bariatric, fertility and more. Save 50-70% vs US prices.",
   keywords: [
-    "medical treatments costa rica",
-    "procedures costa rica",
-    "surgery costa rica",
+    "medical treatments latin america",
+    "procedures latam",
+    "surgery mexico",
     "dental costa rica",
-    "plastic surgery costa rica",
-    "orthopedic surgery costa rica",
+    "plastic surgery colombia",
+    "medical tourism brazil",
   ],
   openGraph: {
-    title: "Medical Treatments in Costa Rica",
+    title: "Medical Treatments in Latin America",
     description:
-      "Explore all medical treatments available in Costa Rica. Save 50-70% on world-class healthcare.",
+      "Explore all medical treatments available across Latin America. Save 50-70% on world-class healthcare.",
     url: `${siteConfig.url}/treatments`,
     siteName: siteConfig.name,
     locale: "en_US",
@@ -49,7 +49,7 @@ const treatmentCategories = [
     name: "Dental",
     slug: "dental",
     description:
-      "Implants, veneers, crowns, root canals, and full-mouth restorations from top Costa Rican dentists.",
+      "Implants, veneers, crowns, root canals, and full-mouth restorations from top dentists across Latin America.",
     procedures: [
       "Dental Implants",
       "Veneers",
@@ -218,9 +218,9 @@ const treatmentCategories = [
 const medicalWebPageSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
-  name: "Medical Treatments in Costa Rica",
+  name: "Medical Treatments in Latin America",
   description:
-    "Comprehensive guide to medical treatments available in Costa Rica for international patients.",
+    "Comprehensive guide to medical treatments available across Latin America for international patients.",
   url: `${siteConfig.url}/treatments`,
   mainEntity: {
     "@type": "ItemList",
@@ -243,22 +243,22 @@ export default function TreatmentsPage() {
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Medical Treatments in Costa Rica
+              Medical Treatments in Latin America
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Explore world-class medical procedures at a fraction of US costs.
               All treatments performed by board-certified specialists at
-              JCI-accredited facilities.
+              verified facilities across Mexico, Costa Rica, Colombia, Brazil, and more.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <div className="flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-medium text-green-700">
                 <span>Save 50-70%</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
-                <span>JCI Accredited</span>
+                <span>Verified Providers</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-700">
-                <span>US-Trained Doctors</span>
+                <span>6+ Countries</span>
               </div>
             </div>
           </div>
@@ -332,15 +332,15 @@ export default function TreatmentsPage() {
         </div>
       </section>
 
-      {/* Why Costa Rica for Medical Treatment */}
+      {/* Why Latin America for Medical Treatment */}
       <section className="bg-slate-50 py-16 sm:py-24">
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Why Choose Costa Rica for Medical Treatment?
+              Why Choose Latin America for Medical Treatment?
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Costa Rica has become a leading destination for medical tourism,
+              Latin America has become a leading destination for medical tourism,
               offering exceptional care at affordable prices.
             </p>
           </div>
@@ -358,37 +358,35 @@ export default function TreatmentsPage() {
 
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
-                <span className="text-2xl font-bold text-blue-600">10+</span>
+                <span className="text-2xl font-bold text-blue-600">50+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
                 JCI Hospitals
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                More JCI-accredited facilities than most Latin American
-                countries
+                Dozens of JCI-accredited facilities across Latin America
               </p>
             </div>
 
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-purple-100">
-                <span className="text-2xl font-bold text-purple-600">3hr</span>
+                <span className="text-2xl font-bold text-purple-600">6+</span>
               </div>
-              <h3 className="mt-4 font-semibold text-gray-900">Flight Time</h3>
+              <h3 className="mt-4 font-semibold text-gray-900">Countries</h3>
               <p className="mt-1 text-sm text-gray-500">
-                Direct flights from major US cities, same timezone as Central
-                US
+                Mexico, Costa Rica, Colombia, Brazil, Argentina, and more
               </p>
             </div>
 
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-orange-100">
-                <span className="text-2xl font-bold text-orange-600">#1</span>
+                <span className="text-2xl font-bold text-orange-600">2M+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                In Latin America
+                Patients Yearly
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                Ranked #1 in Latin America for medical tourism
+                Millions choose LATAM for medical care annually
               </p>
             </div>
           </div>
@@ -404,7 +402,7 @@ export default function TreatmentsPage() {
             </h2>
             <p className="mt-4 text-white/90">
               Our medical tourism experts can help you find the right treatment
-              and connect you with top-rated providers.
+              and connect you with verified providers across Latin America.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link

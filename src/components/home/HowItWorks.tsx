@@ -17,7 +17,7 @@ const steps = [
   },
   {
     step: "03",
-    title: "Travel to Costa Rica",
+    title: "Travel to Your Destination",
     description:
       "Book your flights and accommodations. Many clinics offer concierge services to help with logistics.",
     icon: Plane,
