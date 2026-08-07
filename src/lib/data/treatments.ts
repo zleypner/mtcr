@@ -498,6 +498,14 @@ export const treatmentsData: Record<string, CategoryInfo> = {
     description: "Surgical weight management options for patients addressing severe obesity. These procedures should be viewed as tools to support long-term lifestyle and metabolic modifications, not as guaranteed solutions.",
     procedures: [
       {
+        slug: "endoscopic-sleeve-gastroplasty-costa-rica",
+        name: "Endoscopic Sleeve Gastroplasty (ESG)",
+        description: "A non-surgical weight loss procedure that reduces stomach size by 70-80% using internal sutures placed through an endoscope, without incisions.",
+        recovery: "Return to activities in 3-5 days; liquid diet for first week.",
+        hospitalStay: "Outpatient or 1 night observation",
+        costRange: "$8,000 - $12,000",
+      },
+      {
         slug: "gastric-sleeve",
         name: "Gastric Sleeve (Sleeve Gastrectomy)",
         description: "Surgical removal of approximately 80% of the stomach, leaving a narrow tube or sleeve to restrict food intake.",
@@ -850,6 +858,22 @@ export const treatmentsData: Record<string, CategoryInfo> = {
     name: "Medical Diagnostics & Preventive Screenings",
     description: "Comprehensive diagnostic imaging, laboratory tests, and executive check-ups. Private diagnostic centers in Costa Rica feature advanced imaging technology and offer immediate scheduling.",
     procedures: [
+      {
+        slug: "colonoscopy-costa-rica",
+        name: "Colonoscopy",
+        description: "A diagnostic procedure allowing gastroenterologists to examine the colon and rectum, detect polyps, and screen for colorectal cancer.",
+        recovery: "Same day; return to normal activities next day.",
+        hospitalStay: "Outpatient",
+        costRange: "$800 - $1,500",
+      },
+      {
+        slug: "upper-endoscopy-costa-rica",
+        name: "Upper Endoscopy (EGD)",
+        description: "An examination of the esophagus, stomach, and duodenum using a flexible scope to diagnose gastritis, ulcers, reflux, and other conditions.",
+        recovery: "Same day; mild throat discomfort for a few hours.",
+        hospitalStay: "Outpatient",
+        costRange: "$600 - $1,200",
+      },
       {
         slug: "mri",
         name: "Magnetic Resonance Imaging (MRI)",
