@@ -9,18 +9,18 @@ export function Hero() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-6 inline-flex items-center rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-700">
-            <span>Trusted by 10,000+ patients worldwide</span>
+            <span>Your trusted guide for medical tourism in Costa Rica</span>
           </div>
 
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-            Secure Medical Travel in{" "}
-            <span className="text-primary">Latin America</span>
+            Quality Medical Care in{" "}
+            <span className="text-primary">Costa Rica</span>
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-xl">
-            Save 50-70% on medical procedures without compromising quality.
-            Access verified hospitals, board-certified doctors, and
-            personalized care across Mexico, Costa Rica, Colombia, and more.
+            Save 40-70% on dental implants, cosmetic surgery, and orthopedic procedures.
+            Access JCI-accredited hospitals, board-certified specialists, and
+            comprehensive planning resources for your medical journey to Costa Rica.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -47,9 +47,9 @@ export function Hero() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                 <DollarSign className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="mt-4 font-semibold text-gray-900">Save 50-70%</h3>
+              <h3 className="mt-4 font-semibold text-gray-900">Save 40-70%</h3>
               <p className="mt-1 text-sm text-gray-500">
-                Compared to US prices
+                vs. US prices on dental, cosmetic, and orthopedic procedures
               </p>
             </div>
 
@@ -58,10 +58,10 @@ export function Hero() {
                 <Award className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                Verified Providers
+                3 JCI Hospitals
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                JCI & internationally accredited
+                Internationally accredited facilities in San José
               </p>
             </div>
 
@@ -70,10 +70,10 @@ export function Hero() {
                 <Shield className="h-6 w-6 text-purple-600" />
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                Safe & Secure
+                3 Hours from Miami
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                Transparent process, patient safety first
+                Direct flights, no visa required for US/Canada/EU
               </p>
             </div>
           </div>

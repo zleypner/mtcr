@@ -21,7 +21,9 @@ export function generateBreadcrumbSchema(
   };
 }
 
-export function generateFAQSchema(faqs: FAQ[]): FAQPageSchema {
+export function generateFAQSchema(
+  faqs: { question: string; answer: string }[]
+): FAQPageSchema {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",

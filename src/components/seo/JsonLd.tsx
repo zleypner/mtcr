@@ -1,5 +1,6 @@
 interface JsonLdProps {
-  data: Record<string, unknown>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: any;
 }
 
 export function JsonLd({ data }: JsonLdProps) {

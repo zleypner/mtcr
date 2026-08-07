@@ -19,9 +19,9 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Medical Treatments in Latin America | All Procedures & Costs",
+  title: "Medical Treatments in Latin America | Procedures & Cost Info",
   description:
-    "Explore all medical treatments available across Latin America. Dental, cosmetic surgery, orthopedic, cardiac, bariatric, fertility and more. Save 50-70% vs US prices.",
+    "Explore educational guides on medical treatments in Latin America. Dental, cosmetic surgery, orthopedic, cardiac, bariatric, fertility, and more. Compare potential savings.",
   keywords: [
     "medical treatments latin america",
     "procedures latam",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Medical Treatments in Latin America",
     description:
-      "Explore all medical treatments available across Latin America. Save 50-70% on world-class healthcare.",
+      "Explore educational guides on medical treatments in Latin America. Compare options, safety credentials, and planning resources.",
     url: `${siteConfig.url}/treatments`,
     siteName: siteConfig.name,
     locale: "en_US",
@@ -216,19 +216,19 @@ export default function TreatmentsPage() {
               Medical Treatments in Latin America
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Explore world-class medical procedures at a fraction of US costs.
-              All treatments performed by board-certified specialists at
-              verified facilities across Mexico, Costa Rica, Colombia, Brazil, and more.
+              Explore medical procedures and compare options.
+              Access provider credentials, doctor certifications, and
+              planning resources focused on patient safety in Costa Rica and beyond.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <div className="flex items-center gap-2 rounded-full bg-blue-60 px-4 py-2 text-sm font-medium text-blue-10">
-                <span>Save 50-70%</span>
+                <span>Potential Savings</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-blue-60 px-4 py-2 text-sm font-medium text-blue-10">
-                <span>Verified Providers</span>
+                <span>Credential Information</span>
               </div>
               <div className="flex items-center gap-2 rounded-full bg-blue-60 px-4 py-2 text-sm font-medium text-blue-10">
-                <span>6+ Countries</span>
+                <span>Costa Rica Focus</span>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function TreatmentsPage() {
                     <category.icon className="h-6 w-6 text-blue-10" />
                   </div>
                   <span className="inline-flex items-center rounded-full bg-blue-60 px-2.5 py-0.5 text-xs font-medium text-blue-10">
-                    Save {category.savings}
+                    Typical Savings: {category.savings}
                   </span>
                 </div>
 
@@ -300,56 +300,55 @@ export default function TreatmentsPage() {
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Why Choose Latin America for Medical Treatment?
+              Why Evaluate Latin America for Medical Treatment?
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Latin America has become a leading destination for medical tourism,
-              offering exceptional care at affordable prices.
+              Many countries in Latin America offer modern private medical infrastructure catering to international patients.
             </p>
           </div>
 
           <div className="mx-auto mt-12 grid max-w-5xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
-                <span className="text-2xl font-bold text-blue-10">50%+</span>
+                <span className="text-2xl font-bold text-blue-10">40%+</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">Cost Savings</h3>
               <p className="mt-1 text-sm text-gray-500">
-                Save 50-70% compared to US prices on most procedures
+                Potential cost reductions of 40-70% depending on the procedure and destination
               </p>
             </div>
 
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
-                <span className="text-2xl font-bold text-blue-10">50+</span>
+                <span className="text-2xl font-bold text-blue-10">JCI</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                JCI Hospitals
+                Quality Credentials
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                Dozens of JCI-accredited facilities across Latin America
+                Explore JCI-accredited and internationally credentialed hospitals
               </p>
             </div>
 
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
-                <span className="text-2xl font-bold text-blue-10">6+</span>
+                <span className="text-2xl font-bold text-blue-10">CR</span>
               </div>
-              <h3 className="mt-4 font-semibold text-gray-900">Countries</h3>
+              <h3 className="mt-4 font-semibold text-gray-900">Costa Rica Focus</h3>
               <p className="mt-1 text-sm text-gray-500">
-                Mexico, Costa Rica, Colombia, Brazil, Argentina, and more
+                First destination hub with curated resource guides
               </p>
             </div>
 
             <div className="text-center">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-60">
-                <span className="text-2xl font-bold text-blue-10">2M+</span>
+                <span className="text-2xl font-bold text-blue-10">Safe</span>
               </div>
               <h3 className="mt-4 font-semibold text-gray-900">
-                Patients Yearly
+                Patient Resources
               </h3>
               <p className="mt-1 text-sm text-gray-500">
-                Millions choose LATAM for medical care annually
+                Information resources to support independent research
               </p>
             </div>
           </div>

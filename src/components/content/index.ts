@@ -1,2 +1,1 @@
-// Export MDX content components here
-export {};
+export * from "./MdxRenderComponents";

@@ -8,32 +8,32 @@ const faqs = [
   {
     question: "Is medical tourism in Latin America safe?",
     answer:
-      "Yes, Latin America offers many safe destinations for medical tourism. Countries like Mexico, Costa Rica, Colombia, and Brazil have JCI-accredited hospitals (the gold standard for international healthcare), US and EU-trained physicians, and modern medical facilities. We verify all providers to ensure they meet international safety standards.",
+      "Safety depends on the specific country, facility, and provider. Many clinics and hospitals in Latin America adhere to high international standards and employ specialists trained globally. Patients should independently verify facility accreditations (such as JCI) and physician credentials prior to booking any medical travel.",
   },
   {
     question: "How much can I save compared to US prices?",
     answer:
-      "Patients typically save 50-70% on medical procedures compared to US prices, even when including travel and accommodation costs. For example, dental implants that cost $4,000-$5,000 in the US typically cost $800-$1,500 in Latin America. The savings are due to lower operating costs, not lower quality.",
+      "Patients often observe potential cost reductions of 40-70% on procedures compared to US private healthcare costs, although final prices vary by treatment type, materials used, and travel expenses. These cost differences are primarily due to lower operating overhead, malpractice insurance, and administrative costs in Latin American countries.",
   },
   {
     question: "Do doctors in Latin America speak English?",
     answer:
-      "Yes, most doctors and medical staff at international hospitals speak fluent English. Many Latin American physicians trained in the United States, Canada, or Europe. Clinics catering to medical tourists typically have bilingual staff throughout the facility.",
+      "Many doctors and specialists who treat international patients speak English fluently, and many have completed fellowships or training in the US, Canada, or Europe. Additionally, clinics that cater to international medical travelers often employ bilingual patient coordinators.",
   },
   {
     question: "What is JCI accreditation?",
     answer:
-      "JCI (Joint Commission International) accreditation is the gold standard for healthcare quality worldwide. It evaluates hospitals on patient safety, quality of care, and medical standards. Latin America has dozens of JCI-accredited facilities across Mexico, Costa Rica, Colombia, Brazil, and other countries.",
+      "JCI (Joint Commission International) accreditation is a widely recognized global credential that assesses healthcare facilities on patient safety, treatment quality, and operational standards. Several premier hospitals in Costa Rica and Latin America maintain active JCI accreditations.",
   },
   {
     question: "Which country should I choose for my procedure?",
     answer:
-      "The best country depends on your specific procedure, budget, and preferences. Mexico is popular for dental and bariatric surgery. Costa Rica excels in dental and cosmetic procedures. Colombia is known for plastic surgery. Brazil is renowned for cosmetic surgery. We help you find the right destination for your needs.",
+      "The choice depends on the treatment category and individual logistics. Costa Rica is highly regarded for dental implants and cosmetic surgery due to its proximity and developed private health sector. Mexico and Colombia are also popular destinations for other specialized procedures. We recommend consulting with qualified professionals to discuss your options.",
   },
   {
     question: "Will my US insurance cover treatment abroad?",
     answer:
-      "Most US insurance plans do not cover elective procedures abroad. However, some insurers are beginning to offer medical tourism benefits. Even paying out-of-pocket, the total cost (procedure + travel + hotel) is often less than the US copay alone. We recommend checking with your insurance provider.",
+      "Standard domestic insurance plans rarely cover elective procedures performed outside the United States. A few premium international policies or employer-sponsored plans may include cross-border coverage. It is essential to contact your insurer to verify benefits before making plans.",
   },
 ];
 

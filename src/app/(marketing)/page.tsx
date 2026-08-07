@@ -12,9 +12,9 @@ import { JsonLd } from "@/components/seo";
 import { siteConfig, organizationSchema } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Medical Tourism Latin America | Save 50-70% on Healthcare",
+  title: "Medical Tourism Latin America | Explore Care & Potential Savings",
   description:
-    "Smart Medical Tourism: Your trusted guide for secure medical travel across Latin America. Find verified hospitals, board-certified doctors, and save 50-70% on treatments including dental, cosmetic surgery, and orthopedics.",
+    "Smart Medical Tourism: An informational guide to evaluating medical travel options across Latin America. Understand credential standards, costs, and safety considerations for dental, cosmetic surgery, and orthopedics.",
   keywords: [
     "medical tourism latin america",
     "healthcare latam",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Smart Medical Tourism | Medical Travel Latin America",
     description:
-      "Your trusted guide for secure medical travel across Latin America. Find verified hospitals, board-certified doctors, and save 50-70% on treatments.",
+      "Informational guide to evaluating medical travel options across Latin America. Learn about credentials, safety, and potential cost savings.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Smart Medical Tourism | Medical Travel Latin America",
     description:
-      "Your trusted guide for secure medical travel across Latin America. Save 50-70% on healthcare.",
+      "Informational guide to evaluating medical travel options across Latin America.",
     images: [`${siteConfig.url}/og-home.jpg`],
   },
   alternates: {
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "Is medical tourism in Latin America safe?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Latin America offers many safe destinations for medical tourism. Countries like Mexico, Costa Rica, Colombia, and Brazil have JCI-accredited hospitals, US and EU-trained physicians, and modern medical facilities.",
+        text: "Safety depends on the specific country, facility, and provider. Many clinics and hospitals in Latin America adhere to high international standards and employ specialists trained globally. Patients should independently verify facility accreditations (such as JCI) and physician credentials prior to booking any medical travel.",
       },
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       name: "How much can I save compared to US prices?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Patients typically save 50-70% on medical procedures compared to US prices, even when including travel and accommodation costs.",
+        text: "Patients often observe potential cost reductions of 40-70% on procedures compared to US private healthcare costs, although final prices vary by treatment type, materials used, and travel expenses.",
       },
     },
     {
@@ -79,7 +79,7 @@ const faqSchema = {
       name: "Do doctors in Latin America speak English?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, most doctors and medical staff at international hospitals speak fluent English. Many Latin American physicians trained in the United States, Canada, or Europe.",
+        text: "Yes, many doctors and medical staff at facilities catering to international patients speak fluent English. Many physicians have completed training or fellowships in the United States, Canada, or Europe.",
       },
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       name: "Which country should I choose for my procedure?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The best country depends on your specific procedure, budget, and preferences. Mexico is popular for dental and bariatric surgery. Costa Rica excels in dental and cosmetic procedures. Colombia is known for plastic surgery. Brazil is renowned for cosmetic surgery.",
+        text: "The choice depends on the treatment category and individual logistics. Costa Rica is highly regarded for dental implants and cosmetic surgery due to its proximity and developed private health sector. Mexico and Colombia are also popular destinations for other specialized procedures. We recommend consulting with qualified professionals to discuss your options.",
       },
     },
   ],

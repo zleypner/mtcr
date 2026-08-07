@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "SMT",
   description:
     "Your trusted guide for secure medical travel across Latin America. Find verified hospitals, clinics, and doctors. Save 50-70% on quality healthcare.",
-  url: process.env.NEXT_PUBLIC_APP_URL || "https://smartmedicaltourism.com",
+  url: process.env.NEXT_PUBLIC_APP_URL || "https://www.smartmedical-tourism.com",
   ogImage: "/og-image.jpg",
   locale: "en_US",
   alternateLocales: ["es_MX", "es_CO", "pt_BR"],
@@ -22,7 +22,7 @@ export const siteConfig = {
   authors: [
     {
       name: "Smart Medical Tourism Editorial Team",
-      url: "https://smartmedicaltourism.com/about",
+      url: "https://www.smartmedical-tourism.com/about",
     },
   ],
 } as const;

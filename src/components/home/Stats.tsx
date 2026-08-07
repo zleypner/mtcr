@@ -1,23 +1,23 @@
 const stats = [
   {
-    value: "50-70%",
-    label: "Average Savings",
-    description: "Compared to US prices",
+    value: "40-70%",
+    label: "Typical Cost Savings",
+    description: "Varies by procedure & destination",
   },
   {
-    value: "50+",
-    label: "JCI Accredited Hospitals",
-    description: "Across Latin America",
+    value: "JCI",
+    label: "Hospital Standards",
+    description: "Focusing on internationally accredited facilities",
   },
   {
-    value: "2M+",
-    label: "Medical Tourists Yearly",
-    description: "Choose LATAM for care",
+    value: "LATAM",
+    label: "Destinations Covered",
+    description: "Initial focus on Costa Rica, with expansion plans",
   },
   {
-    value: "6+",
-    label: "Countries",
-    description: "Top medical destinations",
+    value: "100%",
+    label: "Independent Guides",
+    description: "Information focused on patient safety and research",
   },
 ];
 
