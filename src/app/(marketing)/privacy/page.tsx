@@ -48,9 +48,55 @@ export default function PrivacyPage() {
           </p>
 
           <h3 className="text-lg font-bold text-gray-900 mt-6 mb-2">3. Cookies and Analytics</h3>
+          <p className="text-base text-gray-700 font-medium leading-relaxed mb-4">
+            We use cookies to improve your experience and analyze site traffic. You can manage your
+            cookie preferences through the consent banner displayed when you first visit our site.
+          </p>
+
+          <h4 className="text-base font-bold text-gray-900 mt-4 mb-2">Cookies We Use</h4>
+          <div className="overflow-x-auto">
+            <table className="min-w-full text-sm border border-slate-200 rounded-lg">
+              <thead className="bg-slate-50">
+                <tr>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-900 border-b">Cookie Name</th>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-900 border-b">Purpose</th>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-900 border-b">Duration</th>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-900 border-b">Type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-4 py-2 border-b font-mono text-xs">cookie_consent</td>
+                  <td className="px-4 py-2 border-b">Stores your cookie consent preference</td>
+                  <td className="px-4 py-2 border-b">1 year</td>
+                  <td className="px-4 py-2 border-b">Essential</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b font-mono text-xs">_ga</td>
+                  <td className="px-4 py-2 border-b">Google Analytics - distinguishes unique users</td>
+                  <td className="px-4 py-2 border-b">2 years</td>
+                  <td className="px-4 py-2 border-b">Analytics</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 border-b font-mono text-xs">_ga_*</td>
+                  <td className="px-4 py-2 border-b">Google Analytics - maintains session state</td>
+                  <td className="px-4 py-2 border-b">2 years</td>
+                  <td className="px-4 py-2 border-b">Analytics</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className="text-base text-gray-700 font-medium leading-relaxed mt-4">
+            <strong>Analytics cookies</strong> are only set after you click &quot;Accept&quot; on our cookie consent banner.
+            If you decline, no analytics cookies will be placed on your device. We use Google Analytics with
+            IP anonymization enabled, meaning your full IP address is never stored.
+          </p>
+
+          <h4 className="text-base font-bold text-gray-900 mt-4 mb-2">Managing Your Preferences</h4>
           <p className="text-base text-gray-700 font-medium leading-relaxed">
-            We utilize basic tracking cookies to monitor page performance, visitor trends, and load speeds. 
-            All analytical data is collected in aggregate, anonymized formats.
+            You can change your cookie preferences at any time by clearing your browser cookies and
+            revisiting our site. You can also configure your browser to block or delete cookies entirely.
           </p>
 
           <h3 className="text-lg font-bold text-gray-900 mt-6 mb-2">4. Data Storage and Contact</h3>
