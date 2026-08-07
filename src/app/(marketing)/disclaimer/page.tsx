@@ -31,14 +31,14 @@ export default function DisclaimerPage() {
           </div>
           <p className="text-xs text-slate-400 mb-6">Last Updated: August 6, 2026</p>
 
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-base text-gray-700 font-medium leading-relaxed">
             Smart Medical Tourism is an independent planning and educational resources portal. 
             All information provided across this platform, including text, estimated costs, and guide steps, 
             is intended for general educational purposes and independent research only.
           </p>
 
           <h3 className="text-lg font-bold text-gray-900 mt-6 mb-2">No Medical Advice</h3>
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-base text-gray-700 font-medium leading-relaxed">
             The contents of this website do not constitute professional medical advice, clinical diagnosis, 
             or surgical treatment plans. Always consult your primary care doctor or a licensed specialist 
             regarding medical conditions. Never delay seeking medical advice because of something you have 
@@ -46,14 +46,14 @@ export default function DisclaimerPage() {
           </p>
 
           <h3 className="text-lg font-bold text-gray-900 mt-6 mb-2">No Clinician-Patient Relationship</h3>
-          <p className="text-sm text-gray-600 leading-relaxed font-semibold">
+          <p className="text-base text-gray-700 font-medium leading-relaxed font-semibold">
             Use of this website, submission of inquiry forms, or communication with local coordinators 
             does not establish a doctor-patient relationship. Smart Medical Tourism does not perform 
             medical vetting, operate clinics, or employ surgeons.
           </p>
 
           <h3 className="text-lg font-bold text-gray-900 mt-6 mb-2">Contingency & Complications</h3>
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-base text-gray-700 font-medium leading-relaxed">
             Healthcare decisions, including traveling abroad for surgery, involve inherent risks. 
             Smart Medical Tourism assumes no responsibility or liability for treatments, complications, 
             revisions, or clinical outcomes. Every patient is responsible for evaluating their personal 

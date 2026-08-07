@@ -47,11 +47,11 @@ export default function GuidesPage() {
                 className="group flex flex-col justify-between rounded-2xl border bg-white p-6 shadow-sm transition-all hover:shadow-md"
               >
                 <div>
-                  <span className="text-2xs font-semibold text-primary uppercase tracking-wider block mb-2">Resource Guide</span>
+                  <span className="text-sm font-semibold text-primary uppercase tracking-wider block mb-2">Resource Guide</span>
                   <h3 className="text-xl font-bold text-gray-900 group-hover:text-primary transition-colors mb-2">
                     {guide.title}
                   </h3>
-                  <p className="text-xs text-gray-500 leading-relaxed mb-6">
+                  <p className="text-base text-gray-600 font-medium leading-relaxed mb-6">
                     {guide.description}
                   </p>
                 </div>
@@ -68,7 +68,7 @@ export default function GuidesPage() {
 
           <div className="mt-12 bg-slate-50 rounded-xl border p-6 text-center">
             <h3 className="text-base font-bold text-gray-900 mb-2">Have Specific Questions About Planning?</h3>
-            <p className="text-xs text-gray-500 mb-4">Read our Frequently Asked Questions section for immediate answers.</p>
+            <p className="text-base text-gray-600 font-medium mb-4">Read our Frequently Asked Questions section for immediate answers.</p>
             <Link href="/faq" className={buttonVariants({ variant: "outline" })}>
               Visit FAQ Directory
             </Link>

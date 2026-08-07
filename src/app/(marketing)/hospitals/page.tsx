@@ -84,7 +84,7 @@ export default function HospitalsPage() {
                     <CheckCircle2 className="h-4.5 w-4.5 text-primary shrink-0" />
                     {item.title}
                   </h4>
-                  <p className="text-xs text-gray-500 leading-relaxed">{item.description}</p>
+                  <p className="text-sm text-gray-600 leading-relaxed font-medium">{item.description}</p>
                 </div>
               ))}
             </section>
@@ -93,12 +93,12 @@ export default function HospitalsPage() {
             <section className="rounded-2xl border-2 border-dashed bg-slate-50/50 p-8 text-center">
               <Building2 className="mx-auto h-10 w-10 text-slate-400 mb-3" />
               <h3 className="text-lg font-bold text-gray-900 mb-1">Hospital Profiles Under Review</h3>
-              <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed mb-6">
+              <p className="text-base text-slate-600 max-w-md mx-auto leading-relaxed mb-6 font-medium">
                 Verified hospital profiles will be added as they complete our review process. 
                 We independently review Ministry of Health filings, JCI status, and clinical 
                 records before publication.
               </p>
-              <div className="inline-flex rounded-full bg-slate-100 px-3.5 py-1 text-3xs font-semibold text-slate-600 border">
+              <div className="inline-flex rounded-full bg-slate-100 px-4 py-1.5 text-sm font-bold text-slate-700 border">
                 Verification Protocol Active
               </div>
             </section>
@@ -106,7 +106,7 @@ export default function HospitalsPage() {
             {/* Accreditation details */}
             <section className="border-t pt-8">
               <h3 className="text-lg font-bold text-gray-900 mb-3">Institutional vs Individual Credentials</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-4">
+              <p className="text-base text-gray-700 leading-relaxed mb-4 font-medium">
                 Accreditation can apply to either the physical hospital facility (like JCI) or the individual practicing physician 
                 (such as board certifications and licenses). An internationally accredited facility ensures that standard nursing protocols, 
                 sterile fields, emergency preparedness, and pharmaceutical compliance are strictly monitored.
@@ -124,17 +124,17 @@ export default function HospitalsPage() {
                   <ShieldCheck className="h-4.5 w-4.5 text-primary" />
                   Quality Assurance
                 </h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  We recommend that all patients verify credentials independently with the Joint Commission International directory 
+                <p className="text-base text-slate-600 leading-relaxed font-medium">
+                  We recommend that all patients verify credentials independently with the Joint Commission International directory
                   or the respective national health boards.
                 </p>
               </div>
               <div className="border-t pt-4">
                 <h4 className="font-bold text-gray-900 text-sm mb-2">Helpful Inquiries</h4>
-                <p className="text-xs text-slate-500 leading-relaxed mb-4">
+                <p className="text-base text-slate-600 leading-relaxed mb-4 font-medium">
                   Ask these questions when discussing services with any facility coordinator:
                 </p>
-                <ul className="space-y-2 text-3xs text-gray-600 list-disc pl-4">
+                <ul className="space-y-2 text-base text-gray-700 list-disc pl-4 font-medium">
                   <li>Is the medical facility accredited by JCI or a comparable board?</li>
                   <li>Are emergency services and ICU located on-site?</li>
                   <li>How do you coordinate follow-up care with my doctor at home?</li>

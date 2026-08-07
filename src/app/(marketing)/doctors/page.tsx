@@ -77,7 +77,7 @@ export default function DoctorsPage() {
               {verificationSteps.map((step, idx) => (
                 <div key={idx} className="rounded-xl border p-4 bg-white shadow-xs">
                   <h4 className="font-bold text-gray-900 text-sm mb-2">{step.title}</h4>
-                  <p className="text-2xs text-gray-500 leading-relaxed">{step.description}</p>
+                  <p className="text-base text-gray-600 leading-relaxed font-medium">{step.description}</p>
                 </div>
               ))}
             </section>
@@ -86,11 +86,11 @@ export default function DoctorsPage() {
             <section className="rounded-2xl border-2 border-dashed bg-slate-50/50 p-8 text-center">
               <UserCheck className="mx-auto h-10 w-10 text-slate-400 mb-3" />
               <h3 className="text-lg font-bold text-gray-900 mb-1">Doctor Profiles Under Review</h3>
-              <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed mb-6">
-                Verified physician and specialist profiles will be added as they complete our review process. 
+              <p className="text-base text-slate-600 max-w-md mx-auto leading-relaxed mb-6 font-medium">
+                Verified physician and specialist profiles will be added as they complete our review process.
                 We do not list specialists without verifying registry codes and board credentials.
               </p>
-              <div className="inline-flex rounded-full bg-slate-100 px-3.5 py-1 text-3xs font-semibold text-slate-600 border">
+              <div className="inline-flex rounded-full bg-slate-100 px-4 py-1.5 text-sm font-bold text-slate-700 border">
                 Verification Protocol Active
               </div>
             </section>
@@ -98,10 +98,10 @@ export default function DoctorsPage() {
             {/* Registry Info */}
             <section className="border-t pt-8">
               <h3 className="text-lg font-bold text-gray-900 mb-3">Understanding Medical Titles</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                Verify that your surgeon&apos;s title explicitly states &quot;Especialista&quot; in the field of interest, 
-                as general medical practitioners are not legally certified to perform complex aesthetic 
-                or orthopedic surgeries. Independent public registries are accessible online to search 
+              <p className="text-base text-gray-700 leading-relaxed mb-4 font-medium">
+                Verify that your surgeon&apos;s title explicitly states &quot;Especialista&quot; in the field of interest,
+                as general medical practitioners are not legally certified to perform complex aesthetic
+                or orthopedic surgeries. Independent public registries are accessible online to search
                 active physician codes in Costa Rica.
               </p>
             </section>
@@ -117,7 +117,7 @@ export default function DoctorsPage() {
                   <ShieldCheck className="h-4.5 w-4.5 text-primary" />
                   Independent Registry Check
                 </h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed font-medium">
                   Patients are advised to use the public directories of Colegio de Médicos to verify any specialist credentials directly.
                 </p>
               </div>

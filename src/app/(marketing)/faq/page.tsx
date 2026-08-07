@@ -101,7 +101,7 @@ export default function FAQPage() {
                     <AccordionTrigger className="text-left font-medium text-gray-900 py-3.5">
                       {faq.question}
                     </AccordionTrigger>
-                    <AccordionContent className="text-slate-600 leading-relaxed pb-4">
+                    <AccordionContent className="text-base text-slate-700 leading-relaxed pb-4 font-medium">
                       {faq.answer}
                     </AccordionContent>
                   </AccordionItem>

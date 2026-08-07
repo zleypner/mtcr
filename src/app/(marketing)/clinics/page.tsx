@@ -77,7 +77,7 @@ export default function ClinicsPage() {
               {clinicSpecialties.map((spec, idx) => (
                 <div key={idx} className="rounded-xl border p-4 bg-white shadow-xs">
                   <h4 className="font-bold text-gray-900 text-sm mb-2">{spec.name}</h4>
-                  <p className="text-2xs text-gray-500 leading-relaxed">{spec.desc}</p>
+                  <p className="text-base text-gray-600 leading-relaxed font-medium">{spec.desc}</p>
                 </div>
               ))}
             </section>
@@ -86,12 +86,12 @@ export default function ClinicsPage() {
             <section className="rounded-2xl border-2 border-dashed bg-slate-50/50 p-8 text-center">
               <Building2 className="mx-auto h-10 w-10 text-slate-400 mb-3" />
               <h3 className="text-lg font-bold text-gray-900 mb-1">Clinic Profiles Under Review</h3>
-              <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed mb-6">
-                Verified clinic profiles will be added as they complete our review process. 
-                We independently verify Ministry of Health permits and professional licenses 
+              <p className="text-base text-slate-600 max-w-md mx-auto leading-relaxed mb-6 font-medium">
+                Verified clinic profiles will be added as they complete our review process.
+                We independently verify Ministry of Health permits and professional licenses
                 before adding clinic listings.
               </p>
-              <div className="inline-flex rounded-full bg-slate-100 px-3.5 py-1 text-3xs font-semibold text-slate-600 border">
+              <div className="inline-flex rounded-full bg-slate-100 px-4 py-1.5 text-sm font-bold text-slate-700 border">
                 Verification Protocol Active
               </div>
             </section>
@@ -99,7 +99,7 @@ export default function ClinicsPage() {
             {/* Important tips */}
             <section className="border-t pt-8">
               <h3 className="text-lg font-bold text-gray-900 mb-3">Key Selection Checklist</h3>
-              <ul className="space-y-2 text-sm text-gray-600 list-disc pl-4">
+              <ul className="space-y-2 text-base text-gray-700 list-disc pl-4 font-medium">
                 <li>Check if the clinic&apos;s lead specialist has completed fellowships in recognized international institutions.</li>
                 <li>Verify that the clinic uses name-brand materials with international warranty support.</li>
                 <li>Inquire whether emergency procedures are coordinated with a nearby full-service hospital.</li>
@@ -117,7 +117,7 @@ export default function ClinicsPage() {
                   <ShieldCheck className="h-4.5 w-4.5 text-primary" />
                   Independent Review
                 </h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed font-medium">
                   We do not accept paid listings to alter search ranks. Facility profiles are compiled based on objective registry criteria.
                 </p>
               </div>

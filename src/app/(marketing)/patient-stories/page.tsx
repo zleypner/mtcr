@@ -55,12 +55,12 @@ export default function PatientStoriesPage() {
           <section className="rounded-2xl border-2 border-dashed bg-slate-50/50 p-8 text-center">
             <ShieldAlert className="mx-auto h-10 w-10 text-slate-400 mb-3" />
             <h3 className="text-lg font-bold text-gray-900 mb-1">Story Index Under Audits</h3>
-            <p className="text-xs text-slate-500 max-w-md mx-auto leading-relaxed mb-6">
+            <p className="text-base text-slate-600 font-medium max-w-md mx-auto leading-relaxed mb-6">
               To guarantee authenticity and protect patient privacy, we require verified consent 
               audits under HIPAA/PHI regulations before publishing client testimonials. 
               Profiles will be published here once verification is finalized.
             </p>
-            <div className="inline-flex rounded-full bg-slate-100 px-3.5 py-1 text-3xs font-semibold text-slate-600 border">
+            <div className="inline-flex rounded-full bg-slate-100 px-3.5 py-1 text-sm font-semibold text-slate-600 border">
               E-E-A-T Protocols Active
             </div>
           </section>

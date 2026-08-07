@@ -64,7 +64,7 @@ export function FAQ() {
                   onClick={() => toggleFaq(index)}
                   className="flex w-full items-start justify-between px-6 py-5 text-left"
                 >
-                  <span className="text-base font-medium text-gray-900 pr-4">
+                  <span className="text-lg font-bold text-gray-900 pr-4">
                     {faq.question}
                   </span>
                   <ChevronDown
@@ -80,7 +80,7 @@ export function FAQ() {
                     openIndex === index ? "max-h-96" : "max-h-0"
                   )}
                 >
-                  <p className="px-6 pb-5 text-gray-600">{faq.answer}</p>
+                  <p className="px-6 pb-5 text-base text-gray-700 leading-relaxed font-medium">{faq.answer}</p>
                 </div>
               </div>
             ))}

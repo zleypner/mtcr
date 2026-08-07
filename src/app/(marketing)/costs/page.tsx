@@ -74,7 +74,7 @@ export default function CostsPage() {
             {/* Comparison Table */}
             <section className="space-y-4">
               <h2 className="text-2xl font-bold text-gray-900">Costa Rica vs US / Canada Cost Estimates</h2>
-              <p className="text-sm text-slate-500">
+              <p className="text-base text-slate-600 font-medium">
                 Values represent typical ranges in USD updated as of August 2026.
               </p>
               <div className="overflow-x-auto rounded-xl border">
@@ -104,7 +104,7 @@ export default function CostsPage() {
             {/* Cost Factors list */}
             <section className="space-y-6">
               <h2 className="text-2xl font-bold text-gray-900">What Determines Your Total Budget?</h2>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-gray-700 text-base leading-relaxed font-medium">
                 When budgeting for medical tourism, consider all components rather than the surgical procedure alone:
               </p>
               <div className="grid gap-6 sm:grid-cols-2">
@@ -113,7 +113,7 @@ export default function CostsPage() {
                     <ClipboardList className="h-4.5 w-4.5 text-primary shrink-0" />
                     Clinical Expenses
                   </h4>
-                  <ul className="space-y-2 text-xs text-gray-600 list-disc pl-4">
+                  <ul className="space-y-2 text-base text-gray-700 list-disc font-medium pl-4">
                     <li>Surgeon, surgical assistant, and anesthesiologist fees.</li>
                     <li>Surgical facility or hospital overnight admission charges.</li>
                     <li>Pre-op blood tests, electrocardiograms, and diagnostic imaging.</li>
@@ -126,7 +126,7 @@ export default function CostsPage() {
                     <ShieldCheck className="h-4.5 w-4.5 text-primary shrink-0" />
                     Logistics & Travel Expenses
                   </h4>
-                  <ul className="space-y-2 text-xs text-gray-600 list-disc pl-4">
+                  <ul className="space-y-2 text-base text-gray-700 list-disc font-medium pl-4">
                     <li>Round-trip airfare for the patient and optional companion.</li>
                     <li>Lodging during the recovery timeline (minimum stays required).</li>
                     <li>Daily transportation shuttles between airport, hotel, and clinic.</li>
@@ -147,7 +147,7 @@ export default function CostsPage() {
                   <DollarSign className="h-4.5 w-4.5 text-green-600" />
                   Transparency First
                 </h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed font-medium">
                   We assist patients in understanding the structures of medical invoicing. Always request itemized estimates from clinics prior to travel.
                 </p>
               </div>

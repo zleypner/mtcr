@@ -91,7 +91,7 @@ export default function DestinationsPage() {
                       <Star className="h-6 w-6 text-amber-500 fill-amber-500" />
                       {country.name}
                     </h3>
-                    <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-2xs font-semibold text-green-800 border">
+                    <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-base font-medium font-semibold text-green-800 border">
                       {country.status}
                     </span>
                   </div>
@@ -106,7 +106,7 @@ export default function DestinationsPage() {
                           <MapPin className="h-4.5 w-4.5 text-primary shrink-0" />
                           {city.name}
                         </h4>
-                        <p className="text-2xs text-gray-500 mt-2 leading-relaxed mb-4">
+                        <p className="text-base font-medium text-gray-500 mt-2 leading-relaxed mb-4">
                           {city.desc}
                         </p>
                         <Link 
@@ -133,12 +133,12 @@ export default function DestinationsPage() {
                   <div key={country.name} className="rounded-xl border p-6 bg-slate-50/50 opacity-90">
                     <div className="flex justify-between items-center mb-2">
                       <h4 className="font-bold text-gray-900 text-base">{country.name}</h4>
-                      <span className="text-3xs font-semibold text-slate-500 uppercase tracking-widest">Upcoming</span>
+                      <span className="text-sm font-semibold font-semibold text-slate-500 uppercase tracking-widest">Upcoming</span>
                     </div>
-                    <p className="text-xs text-gray-500 leading-relaxed mb-4">{country.description}</p>
+                    <p className="text-base text-gray-600 font-medium leading-relaxed mb-4">{country.description}</p>
                     <div className="flex flex-wrap gap-1.5">
                       {country.specialties.map((spec) => (
-                        <span key={spec} className="inline-flex rounded-full bg-white border px-2 py-0.5 text-3xs text-slate-500">
+                        <span key={spec} className="inline-flex rounded-full bg-white border px-2 py-0.5 text-sm font-semibold text-slate-500">
                           {spec}
                         </span>
                       ))}
@@ -157,12 +157,12 @@ export default function DestinationsPage() {
                 <Shield className="h-4.5 w-4.5 text-primary" />
                 Planning Support
               </h3>
-              <p className="text-xs text-slate-500 leading-relaxed">
+              <p className="text-base text-slate-600 font-medium leading-relaxed">
                 Smart Medical Tourism helps patients compare geographic hubs to understand local infrastructure, logistics, and safety protocols.
               </p>
               <div className="border-t pt-4">
                 <h4 className="font-semibold text-gray-900 text-xs mb-2">Expansion Registry</h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-base text-slate-600 font-medium leading-relaxed">
                   We are actively auditing clinical networks in Mexico and Colombia. Register to receive notifications when verified profiles are active.
                 </p>
               </div>

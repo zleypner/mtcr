@@ -65,7 +65,7 @@ export default function InsurancePage() {
               <div className="space-y-4">
                 <div className="rounded-xl border p-5 bg-white">
                   <h4 className="font-bold text-gray-900 text-sm mb-2">1. Employer-Sponsored Medical Travel Plans</h4>
-                  <p className="text-xs text-gray-500 leading-relaxed">
+                  <p className="text-base text-gray-600 font-medium leading-relaxed">
                     Some corporate health benefit plans include cross-border medical travel incentives, especially for major 
                     orthopedic or bariatric surgeries. Under these programs, insurers cover surgery and travel expenses 
                     to JCI-accredited centers because the total cost is significantly lower than domestic treatments. 
@@ -75,7 +75,7 @@ export default function InsurancePage() {
 
                 <div className="rounded-xl border p-5 bg-white">
                   <h4 className="font-bold text-gray-900 text-sm mb-2">2. Medical Tourism Complications Insurance</h4>
-                  <p className="text-xs text-gray-500 leading-relaxed">
+                  <p className="text-base text-gray-600 font-medium leading-relaxed">
                     Standard travel insurance typically excludes coverage for any issues arising from scheduled medical treatments. 
                     Therefore, medical travelers are strongly advised to purchase a specialized <strong>Medical Complications Policy</strong>. 
                     These third-party policies provide coverage for emergency revisions, unexpected hospital readmissions, 
@@ -85,7 +85,7 @@ export default function InsurancePage() {
 
                 <div className="rounded-xl border p-5 bg-white">
                   <h4 className="font-bold text-gray-900 text-sm mb-2">3. General Travel Medical Insurance</h4>
-                  <p className="text-xs text-gray-500 leading-relaxed">
+                  <p className="text-base text-gray-600 font-medium leading-relaxed">
                     This coverage protects against non-treatment medical emergencies (like slipping at the hotel, food poisoning, 
                     or travel delays) during your stay. It is separate from the surgical procedure itself but acts as an essential 
                     financial safety net during international travel.
@@ -101,7 +101,7 @@ export default function InsurancePage() {
                 If your insurer has agreed to cover a procedure (typically for medically necessary treatments like spine surgery or diagnostics), 
                 you must complete the following steps before traveling:
               </p>
-              <ul className="space-y-2 text-xs text-gray-600 list-disc pl-4">
+              <ul className="space-y-2 text-base text-gray-700 font-medium list-disc pl-4">
                 <li>Obtain written pre-authorization approval detailing covered codes and reimbursement caps.</li>
                 <li>Ensure all clinic bills and surgeon records are provided in English with standard ICD code sets.</li>
                 <li>Request itemized receipts showing clinical fees separate from hotel/travel line items.</li>
@@ -119,7 +119,7 @@ export default function InsurancePage() {
                   <ShieldCheck className="h-4.5 w-4.5 text-primary" />
                   Independent Audit Advice
                 </h4>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-base text-slate-600 font-medium leading-relaxed">
                   Always confirm coverage details in writing directly with your insurance coordinator. Do not assume coverage without written approvals.
                 </p>
               </div>

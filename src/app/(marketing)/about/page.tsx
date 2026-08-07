@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <ShieldCheck className="h-4.5 w-4.5 text-primary shrink-0" />
                 Transparency First
               </h4>
-              <p className="text-2xs text-gray-500 leading-relaxed">
+              <p className="text-base text-gray-600 font-medium leading-relaxed">
                 We clearly separate educational guides from clinic profiles. We do not edit 
                 or alter JCI accreditation statuses or Ministry of Health registrations.
               </p>
@@ -67,7 +67,7 @@ export default function AboutPage() {
                 <Heart className="h-4.5 w-4.5 text-primary shrink-0" />
                 Safety-First Focus
               </h4>
-              <p className="text-2xs text-gray-500 leading-relaxed">
+              <p className="text-base text-gray-600 font-medium leading-relaxed">
                 We emphasize recovery timelines and credential checks. We advise against 
                 rushing travel or prioritizing low cost over safety.
               </p>
@@ -77,9 +77,9 @@ export default function AboutPage() {
           {/* Editorial policy */}
           <section className="border-t pt-8 space-y-4">
             <h3 className="text-lg font-bold text-gray-900">How We Verify Profiles</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Our editorial team independently audits registries before publishing any clinic 
-              or specialist record. We verify that medical licenses are active with local boards 
+            <p className="text-base text-gray-700 leading-relaxed font-medium">
+              Our editorial team independently audits registries before publishing any clinic
+              or specialist record. We verify that medical licenses are active with local boards
               (such as Colegio de Médicos in Costa Rica) and that facilities hold current sanitary permits.
             </p>
           </section>
