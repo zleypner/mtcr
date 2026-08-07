@@ -6,34 +6,34 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    question: "Is medical tourism in Latin America safe?",
+    question: "Is medical tourism in Costa Rica safe?",
     answer:
-      "Safety depends on the specific country, facility, and provider. Many clinics and hospitals in Latin America adhere to high international standards and employ specialists trained globally. Patients should independently verify facility accreditations (such as JCI) and physician credentials prior to booking any medical travel.",
+      "Costa Rica is considered one of the safest medical tourism destinations in Latin America. The country has 3 JCI-accredited hospitals meeting international standards, a stable democracy since 1948, and many doctors trained in the US and Europe. We recommend verifying facility accreditations and physician credentials before booking.",
   },
   {
-    question: "How much can I save compared to US prices?",
+    question: "How much can I save on procedures in Costa Rica?",
     answer:
-      "Patients often observe potential cost reductions of 40-70% on procedures compared to US private healthcare costs, although final prices vary by treatment type, materials used, and travel expenses. These cost differences are primarily due to lower operating overhead, malpractice insurance, and administrative costs in Latin American countries.",
+      "Patients typically save 40-70% compared to US prices. For example, a dental implant costing $3,000-5,000 in the US costs $800-1,800 in Costa Rica. These savings come from lower operating costs, not lower quality—Costa Rica uses the same implant brands and technology as US facilities.",
   },
   {
-    question: "Do doctors in Latin America speak English?",
+    question: "Do doctors in Costa Rica speak English?",
     answer:
-      "Many doctors and specialists who treat international patients speak English fluently, and many have completed fellowships or training in the US, Canada, or Europe. Additionally, clinics that cater to international medical travelers often employ bilingual patient coordinators.",
+      "Yes, most doctors and specialists treating international patients speak fluent English. Many have completed training or fellowships in the United States, Canada, or Europe. Clinics also employ bilingual patient coordinators to assist throughout your care journey.",
   },
   {
     question: "What is JCI accreditation?",
     answer:
-      "JCI (Joint Commission International) accreditation is a widely recognized global credential that assesses healthcare facilities on patient safety, treatment quality, and operational standards. Several premier hospitals in Costa Rica and Latin America maintain active JCI accreditations.",
+      "JCI (Joint Commission International) is the gold standard for international healthcare accreditation. Costa Rica has 3 JCI-accredited hospitals: Hospital CIMA, Clínica Bíblica, and Hospital Clínica Católica. These facilities meet the same safety and quality standards as top US hospitals.",
   },
   {
-    question: "Which country should I choose for my procedure?",
+    question: "How long do I need to stay in Costa Rica?",
     answer:
-      "The choice depends on the treatment category and individual logistics. Costa Rica is highly regarded for dental implants and cosmetic surgery due to its proximity and developed private health sector. Mexico and Colombia are also popular destinations for other specialized procedures. We recommend consulting with qualified professionals to discuss your options.",
+      "Stay duration depends on your procedure. For dental work like crowns or veneers, 5-7 days is typical. For dental implants, plan 7-10 days for initial placement. For cosmetic surgery, 10-14 days allows proper healing before flying home. Your surgeon will advise on the specific timeline.",
   },
   {
-    question: "Will my US insurance cover treatment abroad?",
+    question: "Do I need a visa to travel to Costa Rica?",
     answer:
-      "Standard domestic insurance plans rarely cover elective procedures performed outside the United States. A few premium international policies or employer-sponsored plans may include cross-border coverage. It is essential to contact your insurer to verify benefits before making plans.",
+      "US, Canadian, and EU citizens do not need a visa for stays up to 90 days. You only need a valid passport. Costa Rica is just 3 hours from Miami with direct flights from most major US cities, making it one of the most accessible medical tourism destinations.",
   },
 ];
 

@@ -1,23 +1,23 @@
 const stats = [
   {
     value: "40-70%",
-    label: "Typical Cost Savings",
-    description: "Varies by procedure & destination",
+    label: "Cost Savings",
+    description: "vs. USA prices on major procedures",
   },
   {
-    value: "JCI",
-    label: "Hospital Standards",
-    description: "Focusing on internationally accredited facilities",
+    value: "3",
+    label: "JCI Hospitals",
+    description: "Internationally accredited in San José",
   },
   {
-    value: "LATAM",
-    label: "Destinations Covered",
-    description: "Initial focus on Costa Rica, with expansion plans",
+    value: "3hrs",
+    label: "From Miami",
+    description: "Direct flights from major US cities",
   },
   {
-    value: "100%",
-    label: "Independent Guides",
-    description: "Information focused on patient safety and research",
+    value: "80+",
+    label: "Life Expectancy",
+    description: "Comparable to the United States",
   },
 ];
 
