@@ -34,7 +34,7 @@ export function Stats() {
               <div className="mt-2 text-lg font-semibold text-white/90">
                 {stat.label}
               </div>
-              <div className="mt-1 text-sm text-white/70">
+              <div className="mt-2 text-base text-white/80 font-medium">
                 {stat.description}
               </div>
             </div>

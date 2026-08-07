@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white py-20 sm:py-32">
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-6 inline-flex items-center rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-700">
+          <div className="mb-6 inline-flex items-center rounded-full bg-blue-100 px-5 py-2 text-base font-bold text-blue-700">
             <span>Your trusted guide for medical tourism in Costa Rica</span>
           </div>
 
@@ -17,7 +17,7 @@ export function Hero() {
             <span className="text-primary">Costa Rica</span>
           </h1>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-xl">
+          <p className="mt-6 text-xl leading-8 text-gray-700 sm:text-2xl font-medium">
             Save 40-70% on dental implants, cosmetic surgery, and orthopedic procedures.
             Access JCI-accredited hospitals, board-certified specialists, and
             comprehensive planning resources for your medical journey to Costa Rica.
@@ -47,8 +47,8 @@ export function Hero() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
                 <DollarSign className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="mt-4 font-semibold text-gray-900">Save 40-70%</h3>
-              <p className="mt-1 text-sm text-gray-500">
+              <h3 className="mt-4 font-bold text-gray-900 text-lg">Save 40-70%</h3>
+              <p className="mt-2 text-base text-gray-600 font-medium">
                 vs. US prices on dental, cosmetic, and orthopedic procedures
               </p>
             </div>
@@ -57,10 +57,10 @@ export function Hero() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100">
                 <Award className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="mt-4 font-semibold text-gray-900">
+              <h3 className="mt-4 font-bold text-gray-900 text-lg">
                 3 JCI Hospitals
               </h3>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-2 text-base text-gray-600 font-medium">
                 Internationally accredited facilities in San José
               </p>
             </div>
@@ -69,10 +69,10 @@ export function Hero() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
                 <Shield className="h-6 w-6 text-purple-600" />
               </div>
-              <h3 className="mt-4 font-semibold text-gray-900">
+              <h3 className="mt-4 font-bold text-gray-900 text-lg">
                 3 Hours from Miami
               </h3>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-2 text-base text-gray-600 font-medium">
                 Direct flights, no visa required for US/Canada/EU
               </p>
             </div>
