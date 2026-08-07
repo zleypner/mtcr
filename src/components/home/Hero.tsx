@@ -31,15 +31,6 @@ export function Hero() {
               Explore Treatments
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
-            <Link
-              href="/contact"
-              className={cn(
-                buttonVariants({ variant: "outline", size: "lg" }),
-                "w-full sm:w-auto"
-              )}
-            >
-              Get Free Consultation
-            </Link>
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3">

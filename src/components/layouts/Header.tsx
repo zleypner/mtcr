@@ -3,10 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
 import { mainNavigation } from "@/config/navigation";
-import { cn } from "@/lib/utils";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,12 +53,6 @@ export function Header() {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Link
-            href="/contact"
-            className={cn(buttonVariants(), "hidden sm:inline-flex")}
-          >
-            Get Free Consultation
-          </Link>
           <Button
             variant="ghost"
             size="icon"
@@ -101,16 +94,7 @@ export function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-4">
-              <Link
-                href="/contact"
-                onClick={() => setIsOpen(false)}
-                className={cn(buttonVariants(), "w-full text-center")}
-              >
-                Get Free Consultation
-              </Link>
-            </div>
-          </nav>
+                      </nav>
         </div>
       )}
     </header>

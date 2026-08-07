@@ -140,12 +140,7 @@ export default function HospitalsPage() {
                   <li>How do you coordinate follow-up care with my doctor at home?</li>
                 </ul>
               </div>
-              <div className="border-t pt-4">
-                <Link href="/contact" className={cn(buttonVariants(), "w-full text-center")}>
-                  Submit Inquiry
-                </Link>
-              </div>
-            </div>
+                          </div>
           </div>
 
         </div>

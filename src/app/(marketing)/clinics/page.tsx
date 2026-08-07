@@ -121,12 +121,7 @@ export default function ClinicsPage() {
                   We do not accept paid listings to alter search ranks. Facility profiles are compiled based on objective registry criteria.
                 </p>
               </div>
-              <div className="border-t pt-4">
-                <Link href="/contact" className={cn(buttonVariants(), "w-full text-center")}>
-                  Submit Inquiry
-                </Link>
-              </div>
-            </div>
+                          </div>
           </div>
 
         </div>

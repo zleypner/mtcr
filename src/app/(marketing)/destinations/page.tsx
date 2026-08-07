@@ -166,12 +166,7 @@ export default function DestinationsPage() {
                   We are actively auditing clinical networks in Mexico and Colombia. Register to receive notifications when verified profiles are active.
                 </p>
               </div>
-              <div className="border-t pt-4">
-                <Link href="/contact" className={cn(buttonVariants(), "w-full text-center")}>
-                  Register for Updates
-                </Link>
-              </div>
-            </div>
+                          </div>
           </div>
 
         </div>

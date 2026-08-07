@@ -6,7 +6,6 @@ import {
   Stats,
   HowItWorks,
   FAQ,
-  CTA,
 } from "@/components/home";
 import { JsonLd } from "@/components/seo";
 import { siteConfig, organizationSchema } from "@/config/site";
@@ -119,7 +118,6 @@ export default function HomePage() {
       <Stats />
       <HowItWorks />
       <FAQ />
-      <CTA />
     </>
   );
 }

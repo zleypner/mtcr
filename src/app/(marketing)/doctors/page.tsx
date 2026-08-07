@@ -121,12 +121,7 @@ export default function DoctorsPage() {
                   Patients are advised to use the public directories of Colegio de Médicos to verify any specialist credentials directly.
                 </p>
               </div>
-              <div className="border-t pt-4">
-                <Link href="/contact" className={cn(buttonVariants(), "w-full text-center")}>
-                  Submit Inquiry
-                </Link>
-              </div>
-            </div>
+                          </div>
           </div>
 
         </div>

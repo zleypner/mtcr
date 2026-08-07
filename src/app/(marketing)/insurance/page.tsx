@@ -123,12 +123,7 @@ export default function InsurancePage() {
                   Always confirm coverage details in writing directly with your insurance coordinator. Do not assume coverage without written approvals.
                 </p>
               </div>
-              <div className="border-t pt-4">
-                <Link href="/contact" className={cn(buttonVariants(), "w-full text-center")}>
-                  Submit Inquiry
-                </Link>
-              </div>
-            </div>
+                          </div>
           </div>
 
         </div>

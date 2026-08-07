@@ -151,12 +151,7 @@ export default function CostsPage() {
                   We assist patients in understanding the structures of medical invoicing. Always request itemized estimates from clinics prior to travel.
                 </p>
               </div>
-              <div className="border-t pt-4">
-                <Link href="/contact" className={cn(buttonVariants(), "w-full text-center")}>
-                  Request Price Estimates
-                </Link>
-              </div>
-            </div>
+                          </div>
           </div>
 
         </div>
