@@ -23,18 +23,18 @@ const stats = [
 
 export function Stats() {
   return (
-    <section className="bg-primary py-16 sm:py-20">
+    <section className="bg-primary py-20 sm:py-24">
       <div className="container">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
-              <div className="text-4xl font-bold text-white sm:text-5xl">
+              <div className="text-5xl font-black text-white sm:text-6xl">
                 {stat.value}
               </div>
-              <div className="mt-2 text-lg font-semibold text-white/90">
+              <div className="mt-4 text-2xl font-bold text-white/95">
                 {stat.label}
               </div>
-              <div className="mt-2 text-base text-white/80 font-medium">
+              <div className="mt-3 text-xl text-white/85 font-medium">
                 {stat.description}
               </div>
             </div>

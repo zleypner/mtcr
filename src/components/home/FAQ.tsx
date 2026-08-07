@@ -47,29 +47,29 @@ export function FAQ() {
   return (
     <section className="bg-slate-50 py-20 sm:py-28">
       <div className="container">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="mt-6 text-2xl text-gray-700 font-medium leading-relaxed">
             Get answers to common questions about medical tourism in Latin America.
           </p>
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl">
+        <div className="mx-auto mt-12 max-w-4xl">
           <div className="divide-y divide-gray-200 rounded-xl bg-white shadow-sm">
             {faqs.map((faq, index) => (
               <div key={index} className="group">
                 <button
                   onClick={() => toggleFaq(index)}
-                  className="flex w-full items-start justify-between px-6 py-5 text-left"
+                  className="flex w-full items-start justify-between px-8 py-6 text-left"
                 >
-                  <span className="text-lg font-bold text-gray-900 pr-4">
+                  <span className="text-2xl font-bold text-gray-900 pr-4">
                     {faq.question}
                   </span>
                   <ChevronDown
                     className={cn(
-                      "h-5 w-5 shrink-0 text-gray-500 transition-transform duration-200",
+                      "h-7 w-7 shrink-0 text-gray-500 transition-transform duration-200 mt-1",
                       openIndex === index && "rotate-180"
                     )}
                   />
@@ -77,10 +77,10 @@ export function FAQ() {
                 <div
                   className={cn(
                     "overflow-hidden transition-all duration-200",
-                    openIndex === index ? "max-h-96" : "max-h-0"
+                    openIndex === index ? "max-h-[500px]" : "max-h-0"
                   )}
                 >
-                  <p className="px-6 pb-5 text-base text-gray-700 leading-relaxed font-medium">{faq.answer}</p>
+                  <p className="px-8 pb-6 text-xl text-gray-700 leading-relaxed font-medium">{faq.answer}</p>
                 </div>
               </div>
             ))}

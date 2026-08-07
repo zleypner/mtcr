@@ -66,11 +66,11 @@ export function TreatmentCategories() {
   return (
     <section className="py-20 sm:py-28">
       <div className="container">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Popular Treatments
           </h2>
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="mt-6 text-2xl text-gray-700 font-medium leading-relaxed">
             Latin America offers world-class medical care across all specialties.
             Find the treatment you need at a fraction of US costs.
           </p>
@@ -81,22 +81,22 @@ export function TreatmentCategories() {
             <Link
               key={treatment.name}
               href={treatment.href}
-              className="group relative rounded-2xl border bg-white p-6 shadow-sm transition-all hover:shadow-md"
+              className="group relative rounded-2xl border bg-white p-8 shadow-sm transition-all hover:shadow-md"
             >
-              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-60">
-                <treatment.icon className="h-6 w-6 text-blue-10" />
+              <div className="inline-flex h-16 w-16 items-center justify-center rounded-xl bg-blue-60">
+                <treatment.icon className="h-8 w-8 text-blue-10" />
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">
+              <h3 className="mt-5 text-2xl font-bold text-gray-900">
                 {treatment.name}
               </h3>
-              <p className="mt-2 text-sm text-gray-500">
+              <p className="mt-3 text-xl text-gray-700 font-medium leading-relaxed">
                 {treatment.description}
               </p>
-              <div className="mt-4 flex items-center justify-between">
-                <span className="inline-flex items-center rounded-full bg-blue-60 px-2.5 py-0.5 text-xs font-medium text-blue-10">
+              <div className="mt-5 flex items-center justify-between">
+                <span className="inline-flex items-center rounded-full bg-blue-60 px-4 py-2 text-lg font-bold text-blue-10">
                   Save {treatment.savings}
                 </span>
-                <ArrowRight className="h-4 w-4 text-blue-30 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="h-6 w-6 text-blue-30 transition-transform group-hover:translate-x-1" />
               </div>
             </Link>
           ))}
@@ -105,10 +105,10 @@ export function TreatmentCategories() {
         <div className="mt-12 text-center">
           <Link
             href="/treatments"
-            className="inline-flex items-center text-sm font-semibold text-primary hover:underline"
+            className="inline-flex items-center text-xl font-bold text-primary hover:underline"
           >
             View all treatments
-            <ArrowRight className="ml-1 h-4 w-4 text-blue-10" />
+            <ArrowRight className="ml-2 h-6 w-6 text-blue-10" />
           </Link>
         </div>
       </div>
