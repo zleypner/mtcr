@@ -33,37 +33,37 @@ export function Hero() {
             </Link>
           </div>
 
-          <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-3">
+          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-3">
             <div className="flex flex-col items-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100">
-                <DollarSign className="h-6 w-6 text-green-600" />
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
+                <DollarSign className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="mt-4 font-bold text-gray-900 text-lg">Save 40-70%</h3>
-              <p className="mt-2 text-base text-gray-600 font-medium">
+              <h3 className="mt-4 font-bold text-gray-900 text-2xl">Save 40-70%</h3>
+              <p className="mt-3 text-xl text-gray-700 font-medium text-center">
                 vs. US prices on dental, cosmetic, and orthopedic procedures
               </p>
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100">
-                <Award className="h-6 w-6 text-blue-600" />
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-blue-100">
+                <Award className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="mt-4 font-bold text-gray-900 text-lg">
+              <h3 className="mt-4 font-bold text-gray-900 text-2xl">
                 3 JCI Hospitals
               </h3>
-              <p className="mt-2 text-base text-gray-600 font-medium">
+              <p className="mt-3 text-xl text-gray-700 font-medium text-center">
                 Internationally accredited facilities in San José
               </p>
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-purple-100">
-                <Shield className="h-6 w-6 text-purple-600" />
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-purple-100">
+                <Shield className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="mt-4 font-bold text-gray-900 text-lg">
+              <h3 className="mt-4 font-bold text-gray-900 text-2xl">
                 3 Hours from Miami
               </h3>
-              <p className="mt-2 text-base text-gray-600 font-medium">
+              <p className="mt-3 text-xl text-gray-700 font-medium text-center">
                 Direct flights, no visa required for US/Canada/EU
               </p>
             </div>
