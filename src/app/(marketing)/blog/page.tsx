@@ -1,106 +1,82 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Newspaper, Calendar, User, ChevronRight, ArrowRight } from "lucide-react";
-import { getAllBlogArticles } from "@/lib/content-parser";
+import { getAllBlogArticles, getBlogCategories } from "@/lib/content-parser";
 import { generateMetadata as helperGenerateMetadata } from "@/lib/seo/metadata";
-import { Breadcrumbs } from "@/components/shared";
+import { BlogContent } from "./BlogContent";
 
 export const metadata: Metadata = helperGenerateMetadata({
   title: "Medical Tourism Blog & Articles | Costa Rica",
-  description: "Browse educational articles, safety guides, cost comparisons, and travel planning logs written by our editorial team.",
+  description:
+    "Browse educational articles, safety guides, cost comparisons, and travel planning resources for medical tourism in Costa Rica.",
   path: "/blog",
 });
 
+// Category mapping for display
+const CATEGORY_LABELS: Record<string, string> = {
+  all: "All",
+  guides: "Guides",
+  dental: "Dental",
+  gastroenterology: "Gastroenterology",
+  "weight-loss": "Weight Loss",
+  "medical-tourism": "Medical Tourism",
+  "patient-safety": "Patient Safety",
+  "cost-comparison": "Costs & Planning",
+  tips: "Tips",
+  news: "News",
+  "patient-experience": "Patient Stories",
+  industry: "Industry",
+  destination: "Destinations",
+};
+
+function getCategoryOptions(articles: ReturnType<typeof getAllBlogArticles>) {
+  const categoryCounts: Record<string, number> = { all: articles.length };
+
+  for (const article of articles) {
+    const cat = article.frontmatter.category;
+    if (cat) {
+      categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+    }
+  }
+
+  const options = [{ value: "all", label: "All", count: articles.length }];
+
+  // Add categories that have articles
+  const existingCategories = getBlogCategories();
+  for (const cat of existingCategories) {
+    if (CATEGORY_LABELS[cat]) {
+      options.push({
+        value: cat,
+        label: CATEGORY_LABELS[cat],
+        count: categoryCounts[cat] || 0,
+      });
+    }
+  }
+
+  return options;
+}
+
 export default function BlogPage() {
   const articles = getAllBlogArticles();
-  
-  const breadcrumbsItems = [
-    { label: "Blog", href: "/blog" },
-  ];
+  const categoryOptions = getCategoryOptions(articles);
 
   return (
-    <>
-      <div className="bg-slate-50 border-b">
-        <div className="container">
-          <Breadcrumbs items={breadcrumbsItems} />
-        </div>
-      </div>
-
-      <section className="bg-gradient-to-b from-blue-50/50 to-white py-16 sm:py-24 border-b">
-        <div className="container max-w-4xl text-center">
-          <Newspaper className="mx-auto h-12 w-12 text-primary mb-4" />
-          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Smart Medical Tourism Blog
-          </h1>
-          <p className="mt-6 text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            Educational articles and resources covering patient safety, destination comparisons, 
-            and cost guides, written by our editorial coordinators.
-          </p>
+    <main>
+      {/* Hero Section - Compact */}
+      <section className="border-b bg-gradient-to-b from-slate-50 to-white py-10 sm:py-12">
+        <div className="container max-w-5xl">
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Smart Medical Tourism Blog
+            </h1>
+            <p className="mt-3 text-base font-medium leading-relaxed text-gray-600 sm:text-lg">
+              Expert articles on patient safety, cost guides, and travel
+              planning for medical tourism in Costa Rica.
+            </p>
+          </div>
         </div>
       </section>
 
-      <div className="py-16 sm:py-24">
-        <div className="container max-w-5xl">
-          {articles.length === 0 ? (
-            <div className="text-center rounded-2xl border-2 border-dashed bg-slate-50/50 p-12">
-              <Newspaper className="mx-auto h-10 w-10 text-slate-400 mb-3" />
-              <h3 className="text-lg font-bold text-gray-900 mb-1">No Articles Published</h3>
-              <p className="text-xs text-slate-500 max-w-xs mx-auto leading-relaxed">
-                Check back shortly. Verified editorial guides and posts are currently undergoing medical review.
-              </p>
-            </div>
-          ) : (
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {articles.map((article) => {
-                const fm = article.frontmatter;
-                return (
-                  <article 
-                    key={fm.slug}
-                    className="group flex flex-col justify-between rounded-2xl border bg-white p-6 shadow-sm transition-all hover:shadow-md hover:border-slate-300"
-                  >
-                    <div>
-                      {fm.category && (
-                        <span className="text-3xs font-bold text-primary uppercase tracking-widest block mb-2">
-                          {fm.category.replace("-", " ")}
-                        </span>
-                      )}
-                      <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors mb-3 leading-snug">
-                        {fm.title}
-                      </h3>
-                      <p className="text-xs text-slate-500 leading-relaxed mb-6">
-                        {fm.description}
-                      </p>
-                    </div>
-
-                    <div className="border-t pt-4">
-                      <div className="flex items-center justify-between text-3xs text-slate-400 mb-4">
-                        <span className="flex items-center">
-                          <User className="mr-1 h-3.5 w-3.5 text-slate-300" />
-                          By {fm.author || "Editorial"}
-                        </span>
-                        {fm.updatedAt && (
-                          <span className="flex items-center">
-                            <Calendar className="mr-1 h-3.5 w-3.5 text-slate-300" />
-                            {fm.updatedAt}
-                          </span>
-                        )}
-                      </div>
-                      
-                      <Link 
-                        href={`/blog/${fm.slug}`}
-                        className="inline-flex items-center text-xs font-semibold text-primary hover:underline"
-                      >
-                        Read Article
-                        <ArrowRight className="ml-1 h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-                      </Link>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-          )}
-        </div>
-      </div>
-    </>
+      {/* Blog Content with Filters */}
+      <BlogContent articles={articles} categories={categoryOptions} />
+    </main>
   );
 }

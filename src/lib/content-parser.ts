@@ -194,7 +194,7 @@ export function getBlogArticleBySlug(slug: string): ParsedMDX | null {
   return null;
 }
 
-// Lists all blog articles
+// Lists all blog articles sorted by date (newest first)
 export function getAllBlogArticles(): ParsedMDX[] {
   const blogPath = path.join(process.cwd(), "content", "blog");
   if (!fs.existsSync(blogPath)) return [];
@@ -209,5 +209,30 @@ export function getAllBlogArticles(): ParsedMDX[] {
       console.error(e);
     }
   }
-  return articles;
+
+  // Sort by publishedAt or updatedAt, newest first
+  return articles.sort((a, b) => {
+    const dateA = a.frontmatter.publishedAt || a.frontmatter.updatedAt || "";
+    const dateB = b.frontmatter.publishedAt || b.frontmatter.updatedAt || "";
+    return dateB.localeCompare(dateA);
+  });
+}
+
+// Get unique categories from all blog articles
+export function getBlogCategories(): string[] {
+  const articles = getAllBlogArticles();
+  const categories = new Set<string>();
+  for (const article of articles) {
+    if (article.frontmatter.category) {
+      categories.add(article.frontmatter.category);
+    }
+  }
+  return Array.from(categories).sort();
+}
+
+// Calculate reading time in minutes
+export function calculateReadingTime(content: string): number {
+  const wordsPerMinute = 200;
+  const wordCount = content.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
 }

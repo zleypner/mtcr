@@ -71,8 +71,8 @@ export function TreatmentCategories() {
             Popular Treatments
           </h2>
           <p className="mt-6 text-2xl text-gray-700 font-medium leading-relaxed">
-            Latin America offers world-class medical care across all specialties.
-            Find the treatment you need at a fraction of US costs.
+            Costa Rica offers world-class medical care at JCI-accredited hospitals.
+            Save 40-70% vs. US prices with board-certified specialists.
           </p>
         </div>
 

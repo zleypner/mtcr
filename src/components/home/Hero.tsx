@@ -57,8 +57,8 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="flex h-20 w-20 items-center justify-center rounded-full bg-purple-100">
-                <Shield className="h-10 w-10 text-purple-600" />
+              <div className="flex h-20 w-20 items-center justify-center rounded-full bg-red-100">
+                <Shield className="h-10 w-10 text-red-600" />
               </div>
               <h3 className="mt-5 font-black text-gray-900 text-3xl">
                 3 Hours from Miami

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import {
   Hero,
   TreatmentCategories,
-  WhyLATAM,
+  WhyCostaRica,
   Stats,
   HowItWorks,
   FAQ,
@@ -11,23 +11,23 @@ import { JsonLd } from "@/components/seo";
 import { siteConfig, organizationSchema } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "Medical Tourism Latin America | Explore Care & Potential Savings",
+  title: "Medical Tourism Costa Rica | Save 40-70% on Quality Healthcare",
   description:
-    "Smart Medical Tourism: An informational guide to evaluating medical travel options across Latin America. Understand credential standards, costs, and safety considerations for dental, cosmetic surgery, and orthopedics.",
+    "Smart Medical Tourism Costa Rica: Your guide to affordable dental implants, cosmetic surgery, and orthopedic procedures. JCI-accredited hospitals, board-certified doctors, save 40-70% vs US prices.",
   keywords: [
-    "medical tourism latin america",
-    "healthcare latam",
-    "dental tourism mexico",
-    "plastic surgery colombia",
-    "medical travel costa rica",
-    "affordable healthcare abroad",
-    "jci accredited hospitals",
+    "medical tourism costa rica",
+    "dental implants costa rica",
+    "cosmetic surgery costa rica",
+    "plastic surgery costa rica",
+    "dental tourism costa rica",
+    "affordable healthcare costa rica",
+    "jci accredited hospitals costa rica",
     "smart medical tourism",
   ],
   openGraph: {
-    title: "Smart Medical Tourism | Medical Travel Latin America",
+    title: "Smart Medical Tourism | Medical Tourism Costa Rica",
     description:
-      "Informational guide to evaluating medical travel options across Latin America. Learn about credentials, safety, and potential cost savings.",
+      "Your guide to quality, affordable medical care in Costa Rica. Save 40-70% on dental, cosmetic, and orthopedic procedures at JCI-accredited hospitals.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         url: `${siteConfig.url}/og-home.jpg`,
         width: 1200,
         height: 630,
-        alt: "Smart Medical Tourism - Medical Travel Latin America",
+        alt: "Smart Medical Tourism - Medical Tourism Costa Rica",
       },
     ],
     locale: "en_US",
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Smart Medical Tourism | Medical Travel Latin America",
+    title: "Smart Medical Tourism | Medical Tourism Costa Rica",
     description:
-      "Informational guide to evaluating medical travel options across Latin America.",
+      "Your guide to quality, affordable medical care in Costa Rica. Save 40-70% vs US prices.",
     images: [`${siteConfig.url}/og-home.jpg`],
   },
   alternates: {
@@ -59,34 +59,34 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Is medical tourism in Latin America safe?",
+      name: "Is medical tourism in Costa Rica safe?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Safety depends on the specific country, facility, and provider. Many clinics and hospitals in Latin America adhere to high international standards and employ specialists trained globally. Patients should independently verify facility accreditations (such as JCI) and physician credentials prior to booking any medical travel.",
+        text: "Costa Rica is considered one of the safest medical tourism destinations in Latin America. The country has 3 JCI-accredited hospitals meeting international standards, a stable democracy since 1948, and many doctors trained in the US and Europe.",
       },
     },
     {
       "@type": "Question",
-      name: "How much can I save compared to US prices?",
+      name: "How much can I save on procedures in Costa Rica?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Patients often observe potential cost reductions of 40-70% on procedures compared to US private healthcare costs, although final prices vary by treatment type, materials used, and travel expenses.",
+        text: "Patients typically save 40-70% compared to US prices. For example, a dental implant costing $3,000-5,000 in the US costs $800-1,800 in Costa Rica. These savings come from lower operating costs, not lower quality.",
       },
     },
     {
       "@type": "Question",
-      name: "Do doctors in Latin America speak English?",
+      name: "Do doctors in Costa Rica speak English?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, many doctors and medical staff at facilities catering to international patients speak fluent English. Many physicians have completed training or fellowships in the United States, Canada, or Europe.",
+        text: "Yes, most doctors and specialists treating international patients speak fluent English. Many have completed training or fellowships in the United States, Canada, or Europe. Clinics also employ bilingual patient coordinators.",
       },
     },
     {
       "@type": "Question",
-      name: "Which country should I choose for my procedure?",
+      name: "What is JCI accreditation?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The choice depends on the treatment category and individual logistics. Costa Rica is highly regarded for dental implants and cosmetic surgery due to its proximity and developed private health sector. Mexico and Colombia are also popular destinations for other specialized procedures. We recommend consulting with qualified professionals to discuss your options.",
+        text: "JCI (Joint Commission International) is the gold standard for international healthcare accreditation. Costa Rica has 3 JCI-accredited hospitals: Hospital CIMA, Clínica Bíblica, and Hospital Clínica Católica.",
       },
     },
   ],
@@ -114,7 +114,7 @@ export default function HomePage() {
 
       <Hero />
       <TreatmentCategories />
-      <WhyLATAM />
+      <WhyCostaRica />
       <Stats />
       <HowItWorks />
       <FAQ />

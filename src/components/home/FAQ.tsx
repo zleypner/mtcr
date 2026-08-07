@@ -52,7 +52,7 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="mt-6 text-2xl text-gray-700 font-medium leading-relaxed">
-            Get answers to common questions about medical tourism in Latin America.
+            Get answers to common questions about medical tourism in Costa Rica.
           </p>
         </div>
 
